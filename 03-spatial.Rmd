@@ -1,0 +1,172 @@
+# Spatial Price Relationships
+
+@tomek2014[, Chapter 8], @barrett2002
+
+## Spatial Arbitrage and Market Integration
+
+Agricultural commodities typically are produced in geographically diverse locations, and can be costly to transport. Relationships among geographically distant, or spatially separated markets are often examined by comparing prices in these markets (which, sometimes, may be the only trade data available).
+
+To the extent that supply and demand forces differ across markets, prices of agricultural commodities can (and do) vary spatially. Given a competitive market structure, spatial price relationships are determined by *transfer costs* among markets. In addition to the transportation costs, components of the transfer cost also include other transaction costs related to contracting, insurance, financing, etc.
+
+Spatial arbitrage, through the actions of economic agents, ensures that the price differential between regions $i$ and $j$, $p_{jt}-p_{it}$ at any given time, $t$, does not exceed the transfer costs, ($\tau_{ijt}$): $$p_{jt}-p_{it} \le \tau_{ijt}.$$ This is referred to as *long--run competitive equilibrium*. The condition will hold as an equality if the two regions engage in a trade with each other, thereby exhausting the rents to spatial arbitrage. That is, when trade occurs, price differentials should move one-for-one with the costs of spatial arbitrage; but when no trade occurs, there may be no correlation among market prices even though competitive equilibrium holds. 
+
+<!-- Note that spatial arbitrage is an equilibrium concept: actual prices may diverge from this relationship due to exogenous shocks, but the actions of arbitrageurs will revert the price spread toward the transfer cost. -->
+
+Market integration, defined as tradability or contestability between markets, is a (related but) slightly different concept from competitive spatial equilibrium. This implies the transfer of excess demand from one market to another, manifest
+in the physical flow of commodity, the transmission of price shocks from one market to another, or both. 
+
+## The Law of One Price
+
+From the foregoing it follows that two patially separated markets can be in equilibrium but not necessarily integrated (e.g., when the spatial arbitrage condition is satisfied but no trade occurs); they can also be integrated but not necessarily in equilibrium (e.g., when trade occurs but the rents to spatial arbitrage are not exchausted). When the integrated markets are in equilibrium, the *law of one price* (LOP) holds. The LOP suggests that, abstracting from transfer costs, regional markets that are linked by trade and arbitrage, will have a common, or unique price. While the LOP (in its strong form) rarely holds in practice, there is evidence for LOP among studies that explicitly account for transactions costs, as well as those that explicitly focus on traded rather than non-traded commodities.
+
+<!-- A price transmission ratio, which measures the degree to which demand or supply shocks arising in one region ($\eta_i$) are transmitted to another region: $$r_{ij} = \frac{\partial p_j}{\partial \eta_i}/\frac{\partial p_i}{\partial \eta_i},$$ where $r_{ij}$ is the price transmission ratio, and its expectation is seen as a measure of market integration.  -->
+
+Notably, price co-movement between two regions can arise for reasons other than those that link these regions via trade. On the other hand, prices that satisfy the LOP may not move together, if transfer costs are large and volatile. Finally, it is not necessary for two regions to be direct trading partners for an integration to be present. As long as these regions are part of a common trading network, they may be integrated just as strongly as if they were direct trading partners. 
+
+Several important implications follow. First, because trade will only occur when the price differential equals or exceeds the transfer cost, shocks to production or consumption may result in discontinious trade flows over time. Second, to the extent that trade takes place, the price differential will remain the same (and be equal to the transfer cost). Finally, integrated markets will be characterized by the simultaneous determination of prices, trade, and storage.
+
+<!-- Perfect market integration, i.e., when $E(r_{ij})=1$, is a more restrictive notion than the LOP. For example, it is possible that the LOP holds even though two regions have expected price transmission ratio of less than one. On the other hand, a unit price transmission ratio would typically imply the strong form of the LOP.  -->
+
+Key to the LOP is the notion of *efficient markets*. In general, efficiency is meant to imply that the allocation of resources is such that aggregate welfare cannot be further improved by reallocating of resources. In the context of spatial arbitrage, market efficiency is interpreted to imply that no opportunities for profits have been left unexploited by arbitrageurs. That is, the efficient market hypothesis assumes away profitable arbitrage opportunities. To that end, the LOP may not necessarily apply if buyers have less than perfect information about where to find the lowest price commodity; nor may they apply across international borders, because some goods are not transferable. These principles facilitate the so-called *structure of prices*---a function of the pattern of trade and transfer costs between regions that engage in trade. 
+
+Implications of the structure of prices are that: the lowest-cost source determines the price prevailing in each deficit market; producers sell in whichever market yields the highest net return; the price prevailing in each surplus producing area is the deficit market price less the cost of transferring a product to that market. Of course, the foregoing assumes a competitive market structure, with a homogeneous commodity, informed traders, and no barriers to trade. 
+
+
+<!-- ## Market Boundaries -->
+
+<!-- Market boundaries define the geographic scope of the producers and buyers of a particular commodity and provide a natural definition what is a particular market. Natural barriers (e.g., rivers, mountains) and artificial barriers (e.g., political boundaries) may determine the dividing line between supply areas of different markets. Otherwise, and assuming prices paid to producers is inversely proportional to distance to markets, the boundary between supply areas is where producer prices (net of transfer costs) are the same.  -->
+
+
+
+
+
+
+<!-- \begin{itemize} -->
+<!-- 	\item Consider an illustrative example, where A and B are commodity surplus regions, and X and Y are commodity deficient regions: -->
+<!-- 	\begin{center} -->
+<!-- 		\begin{tikzpicture}[scale=.85] -->
+<!-- 		\draw[thick,dashed] (0,3) node[left] {$X$} -- (1,1) node[below] {$A$} -- (8,1) node[right] {$Y$} -- (5,4) node[above] {$B$} -- (0,3) -- (8,1); -->
+
+<!-- 		\draw (-0.5,3) node[blue,left] {$\$3.00$} (1,.5) node[blue,below] {$\$2.90$} (8.5,1) node[blue,right] {$\$3.30$} (5,4.5) node[blue,above] {$\$3.10$};  -->
+
+<!-- 		\draw (0.5,2) node[red,below left] {$\$0.10$} (4.5,1.0) node[red,below] {$\$0.40$} (6.5,2.5) node[red,above right] {$\$0.20$} (3.0,3.5) node[red,above left] {$\$0.30$} (3.5,2) node[red,above right] {$\$0.50$};  -->
+
+<!-- 		\end{tikzpicture} -->
+<!-- 	\end{center} -->
+<!-- \end{itemize} -->
+
+<!-- \end{frame} -->
+
+
+
+
+
+<!-- %\begin{frame}{Market Boundaries} -->
+<!-- %	 -->
+<!-- %	\begin{center} -->
+<!-- %		\includegraphics[width=0.8\textwidth]{boundaries} -->
+<!-- %	\end{center} -->
+<!-- %	 -->
+<!-- %\end{frame} -->
+
+<!-- \begin{frame}{Market Boundaries} -->
+
+<!-- 	\begin{center} -->
+<!-- 		\begin{tikzpicture}[scale=.7] -->
+<!-- 		\draw[thick] (0,7) node[above] {Market $A$} -- (0,0) -- (10,0) -- (10,7) node[above] {Market $B$}; -->
+
+<!-- 		\draw (0,0) node[below right] {$A \longrightarrow$} (3,0) node[below] {$30$} (6,0) node[below] {$60$} (9,0) node[below] {$90$};  -->
+
+<!-- 		\draw (1,-.6) node[below] {$90$} (4,-.6) node[below] {$60$} (7,-.6) node[below] {$30$} (10,-.6) node[below left] {$\longleftarrow B$};  -->
+
+<!-- 		\draw (5.5,-1.2) node[below] {Distance from Market};  -->
+
+<!-- 		\draw[solid,thick,color=blue] (0,5) -- (10,2); -->
+
+<!-- 		\draw[solid,thick,color=red] (0,1) -- (10,4); -->
+<!-- 		\draw[solid,thick,color=green] (6.67,5) -- (6.67,0); -->
+
+<!-- 		\draw (0,6) node[left] {$p_A;\tau_{iA}$} (10,6) node[right] {$p_B;\tau_{iB}$}; -->
+
+<!-- 		\uncover<2->{ -->
+<!-- 			\draw[dashed,thick,color=red] (0,3) -- (10,5); -->
+<!-- 			\draw[dashed,thick,color=green] (4,5) -- (4,0); -->
+<!-- 		} -->
+<!-- 		\end{tikzpicture} -->
+<!-- 	\end{center} -->
+
+<!-- \end{frame} -->
+
+
+<!-- %\begin{frame}{Spatial Equilibrium Models} -->
+<!-- %	 -->
+<!-- %	\begin{itemize} -->
+<!-- %		\item Geographical price relationships can be analyzed by using spatial price equilibrium models. -->
+<!-- %		\item Such models determine the optimum trading patterns, given the supply and demand conditions within each region. -->
+<!-- %		\item The general principles involved in developing inter-regional trade models can be illustrated with the aid of supply and demand diagrams for two regions. -->
+<!-- %	\end{itemize} -->
+<!-- %	 -->
+<!-- %\end{frame} -->
+
+
+
+
+
+
+<!-- \begin{frame}{Examining Spatial Market Integration} -->
+
+<!-- \begin{itemize} -->
+<!-- 	\item Empirical literature offers an array of modeling choices to examine spatial market integration. -->
+<!-- 	\item Many early empirical studies relied on a simple regression and correlation analysis, based on an assumption that prices in spatially linked markets should be highly correlated. -->
+<!-- 	\item Such analysis can be misleading as it neglects common factors such as inflation, population growth, or climate patters that may affects all locations simultaneously. -->
+<!-- 	\item Additional set of shortcomings include monopolistic markets and failure to account for the transaction costs band. -->
+<!-- 	\item Data related issues, such as nonstationarity, can also yield spurious results. -->
+<!-- \end{itemize} -->
+
+<!-- \end{frame} -->
+
+
+<!-- \begin{frame}{Examining Spatial Market Integration} -->
+
+<!-- \begin{itemize} -->
+<!-- 	\item Dynamic regression models are natural application for analysis time series of commodity prices. -->
+<!-- 	\item The techniques to test spatial market relationships include Granger causality, impulse response analysis (of structural and nonstructural vector autoregressive models), and cointegration analysis (of nonstationary data). -->
+<!-- 	\item Agricultural commodities typically are bulky and costly to transport; regional trade thus may involve significant delivery lags and other impediments to adjustments. -->
+<!-- 	\item Serial correlation in the exogenous shocks may also cause persistence in spatial price relationships. -->
+<!-- \end{itemize} -->
+
+<!-- \end{frame} -->
+
+
+<!-- \begin{frame}{Examining Spatial Market Integration} -->
+
+<!-- \begin{itemize} -->
+<!-- 	\item Cointegration analysis has the advantage of allowing consistent inferences to be drawn in situations where individual price series are nonstationary. -->
+<!-- 	\item Cointegration is a time series concept, and is based on the intuition that economic forces should prohibit persistent long-run deviations from equilibrium conditions, although significant short-run deviations may be observed. -->
+<!-- 	\item To that end, cointegration--based tests are tests of long--run tendencies, rather than of period--by--period equilibria.  -->
+<!-- \end{itemize} -->
+
+<!-- \end{frame} -->
+
+
+<!-- \begin{frame}{Examining Spatial Market Integration} -->
+
+<!-- \begin{itemize} -->
+<!-- 	\item Much like other regression--based tests, cointegration tests also are vulnerable to problems associated with spurious regression results and transaction costs, which in turn may be nonstationary. -->
+<!-- 	\item So a set of prices may not be cointegrated even where they are clearly linked in a long run equilibrium; and markets that are not linked may have cointegrated equilibrium prices. -->
+<!-- 	\item With nonstationary transaction costs, failure to find cointegration between two markets may not mean their lack of integration. -->
+<!-- 	\item Nonetheless, the concept is appealing from the standpoint of spatial market integration, because efficient arbitrage conditions in the regional markets suggest that regional prices in alternative markets should not diverge from one another. -->
+<!-- \end{itemize} -->
+
+<!-- \end{frame} -->
+
+
+<!-- \begin{frame}{Examining Spatial Market Integration} -->
+
+<!-- \begin{itemize} -->
+<!-- 	\item Switching regime models offer a framework to account for changes in the direction of trade between the two markets, as well as for the transaction costs band (of unknown size). -->
+<!-- 	\item These models typically assume no serial correlation in the forcing variables, and use the size of price spreads as an indicator of spatial market integration. -->
+<!-- 	\item In addition, these models implicitly assume constant transaction costs, which may be too restrictive. -->
+<!-- \end{itemize} -->
+
+<!-- \end{frame} -->

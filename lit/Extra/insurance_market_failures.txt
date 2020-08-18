@@ -1,0 +1,25 @@
+The insurance market is characterized by the fundamental problem of bilateral asymmetric information. On one hand, individuals do not have complete information in understanding complicated insurance contracts and lack the ability to assess the adequacy of premium to risk. On the other hand, insurers suffer from lack of information regarding the risk characteristics of individuals. This second asymmetry generates the two phenomena of moral hazard and adverse selection.
+
+Moral hazard (hidden action) depends on the insurers’ impossibility to perfectly know the extent their customers’ behavior may affect the occurrence and/or the dimension of the loss.
+
+To be precise, the term moral hazard refers to at least two different situations in which the insured’s behavior can affect the probability of the various outcomes: (i) situations when insurance may induce greater use of a service by an insured individual or cause the insured to exercise less care and (ii) situations when an insured individual purposely causes harm or otherwise falsifies loss in order to collect insurance benefits or to inflate the loss.
+
+In the case of moral hazard, the insured’s behavior changes, and the insurer is unable to either predict this change in advance or to prevent it by exempting such behavior from the insurance contract coverage (Shavell 1979).
+
+In fact, after signing an insurance contract, the insured may have less incentive to act carefully or take preventive measures, influencing both the damage probability and/or the loss dimension.
+
+Moral hazard, even if severe, does not cause a complete breakdown of markets, but it raises the cost of insurance and, consequently, reduces the degree of insurance coverage negatively affecting market outcomes (Tennyson and Warfel 2009).
+
+In this case, a remedy is monitoring the insured’s behavior: ex ante the loss occurrence, to monitor the level of care in preventing the loss, insofar as the insured’s behavior has any influence over the risk; ex post, to monitor the amount of claim when loss occurs, beyond the services the claimant would purchase if not insured and assuming the insured individual can influence the magnitude of the claim. Also incentive schemes linking the price of insurance to observed past behavior (e.g., bonus/malus systems) can be used as devices to contain this problem (Derrig 2002).
+
+Adverse selection (hidden information) refers to the inability of insurers to observe risk characteristics of their customers, leading to offer a contract based on the average risk of the entire group of customers. In this case, more high-risk individuals purchase insurance; higher payouts by insurance companies force them to raise rates which, in turn, makes the insurance less attractive to low-risk individuals.
+
+As a consequence, this may reduce the stability of the market equilibrium, and the market may completely break down, such as the famous “market for lemons” (Akerlof 1970).
+
+In the case of adverse selection, a remedy would be to use statistical data to separate different categories of risky individuals by classification instrument.
+
+Theoretically in determining the premium to be charged, insurers should estimate the expected losses for each individual being insured. But given the informational asymmetry, the insurance companies apply risk classification trying to group the individuals in such a way that those with a similar loss probability are charged the same rate. The risk classification systems are clearly supported by statistical data showing differences in the event rate in different groups (Porrini 2015).
+
+In practice, insurers have to identify risks that are independent, uncorrelated, and equally valued and to aggregate them in order to reduce the total risk of the set. An efficient risk classification reduces adverse selection, because it makes insurance more attractive to the low-risk individuals.
+
+Classifying insurance risks increases the efficiency of contracting in terms of asymmetric information. However, the benefits are conditional on general principles, such as the nondiscrimination, and generally to consumer protection issue.

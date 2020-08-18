@@ -1,0 +1,50 @@
+# Futures Markets
+
+## Futures Contracts
+	
+Futures markets provide a venue for trade of *futures contracts*. A futures contract is a legal instrument, enforceable by the rules of the exchange on which it is traded, to deliver or accept delivery of a specific amount of a commodity during a specified month at a price established in the market.
+
+Futures contracts are a highly standardized form of forward contracts: 
+
+- that trade on an organized exchange platform (e.g., Chicago Board of Trade, Australian Securities Exchange); 
+- that specify a product, delivery date, delivery mechanism, and exchange price; 
+- wherein payments (to and from) are backed by the exchange; and 
+- wherein the agreement is backed by a good-faith deposit---margin.
+
+A futures contract requires two parties---a seller and a buyer. Seller promises to deliver the designated quantity of a commodity in exchange of a fixed price. Selling a contract is also known as taking a *short position*. Buyer promises to receive a delivery of a specified quantity of a commodity for a fixed price. Buying a contract is also known as taking a *long position*.
+
+In practice, very few contracts are held until expiration (when the transfer of ownership would take place). Instead, parties offset their positions. If a trader sells a futures contract, they can offset by buying the same type of futures contract. If a trader buys a futures contract, they can offset by selling the same type of futures contract. When they offset, the contract obligations are fulfilled, and no longer exists the need to accept or make delivery of the product. The only remaining 'obligation' for sellers and buyers is any difference in the prices of the two contracts.
+
+
+## The Relationship between Spot and Futures Prices
+	
+For many agricultural producers, futures markets can be important tools for reducing risk through *hedging*. Hedging implies insuring against the future losses due to price uncertainty by giving up potential future profits. 
+
+In practice, hedging means taking the opposite positions in a commodity futures market as compared to what a buyer or seller would take in a spot market in order to guarantee a certain profit. A seller executes a hedge by selling contracts now and buying them later when they sell the commodity in the spot market. A buyer executes a hedge by buying contracts now and selling them later when they purchase the commodity in the spot market. 
+
+A it turns out, both for buyers and sellers, the hedge price is equal to the sum of the futures price and the *basis*. Basis refers to the difference between futures and spot prices: $b_{t} = p_{f,t}-p_{s,t}$. Unlike the futures and spot prices that tend to meander, basis is 'stable,' which makes it an attractive measure for empirical analyses.
+
+In discussing how to hedge price risk, we assumed that at the time when a contract expires the futures and spot prices are exactly the same -- i.e., we have, what is known as, the *perfect convergence*. In practice, rarely this is the case, because there are always factors (e.g. location differentials, storage costs, speculators in the market) that can contribute to disparity in these prices.
+
+## Inventories and Price of Storage
+
+For an annually produced storable commodity (e.g., grains) supply is given by the production in the current period, plus the beginning inventory, and minus the ending inventory. Decisions about inventories, however, depend on the relationship of the expected price for delivery in the future, relative to the current spot price, and thus both prices are affected by current and expected economic conditions.
+
+Because spot and futures prices are determined simultaneously (and are influenced by the same set of explanatory variables), they are correlated, but differ by a cost of storage. The difference between spot and futures prices is also referred as the price of storage, which is the expected return from holding inventory and hedging. The relationship between the price of storage and the amount of inventory held is illustrated by an upward-sloping supply-of-storage function.
+
+The negative segment of the supply--of--storage curve implies positive inventories even when the return--on--storage is negative. This is due to the convenience yield---a benefit that accrues from having sufficient amount of stocks to maintain continuous business operation or to meet unexpected demands. Marginal convenience yield decreases and approaches zero as stocks increase. Marginal cost of storage remains constant up to a point, but may increase as inventories get large (storage capacity constraints).
+
+
+## Futures Price Responses to Information
+
+Futures markets react to market information and offer best prediction of future spot prices -- the concept that leads to the *efficient market hypothesis*. In a perfect market, the prices for the various futures contracts will exactly anticipate the respective maturity months' spot prices: $$p_{f,t} = E\!\left(p_{s,t+1}|\Omega_t\right)$$ That is to say that futures market efficiently aggregates all the information that influences prices, and that futures prices are potentially unbiased forecasts of forthcoming spot prices.
+
+The efficient market hypothesis relies on the following assumptions: 
+- information is available at no cost;
+- current price reflect all known information; 
+- new information (which occurs randomly) is reflected instantly (and correctly) onto a new price.
+
+The efficient markets support the random walk model, given by: $$p_{f,t+1} = p_{f,t} + \varepsilon_{t+1},\;~~\varepsilon_{t+1}\sim iid\left(0,\sigma^2\right).$$ 
+
+If markets are inefficient, i.e., if price changes do not fully reflect information changes, then past prices can facilitate economically significant forecasts: $$p_{f,t+1} = \beta_1 p_{f,t} + \beta_2 p_{f,t-1} + \ldots + \varepsilon_{t+1}.$$ Not everyone has perfect information (semi-strong-form efficient vs. strong-form efficient). Even with perfect information, *bounded rationality* may result in suboptimal decisions.
+		

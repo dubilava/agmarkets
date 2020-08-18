@@ -1,0 +1,13 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      before: |
+        <li><a href="./">Agricultural Markets</a></li>
+      after: |
+      collapse: section
+    download: "pdf"
+bookdown::pdf_book:
+  keep_tex: yes
+
+

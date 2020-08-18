@@ -1,0 +1,15 @@
+--- 
+title: "Agricultural Markets"
+author: "David Ubilava"
+date: "`r format(Sys.Date(),'%B %Y')`"
+bibliography: ["book.bib", "packages.bib"]
+documentclass: book
+link-citations: yes
+site: bookdown::bookdown_site
+biblio-style: apalike
+always_allow_html: yes
+---
+
+# Preamble {-}
+
+This is a collection of notes designed to teach Agricultural Markets at an undergraduate level. The content (loosely) follows @tomek2014, and covers most topics highlighted in @myers2010. 
