@@ -4,8 +4,8 @@
 %
 \documentclass[
   oneside]{book}
+\usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
@@ -41,7 +41,8 @@
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
-\usepackage{longtable,booktabs}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
 \makeatletter
@@ -50,7 +51,7 @@
 % Allow footnotes in longtable head/foot
 \IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
 \makesavenoteenv{longtable}
-\usepackage{graphicx,grffile}
+\usepackage{graphicx}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
 \def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
@@ -67,10 +68,33 @@
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{5}
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
 \title{Agricultural Markets and Prices}
 \author{David Ubilava}
-\date{July 2021}
+\date{August 2021}
 
 \begin{document}
 \maketitle
@@ -92,9 +116,9 @@ These notes are prepared to teach an undergraduate-level course on agricultural 
 \hypertarget{preferences-and-demand}{%
 \chapter{Preferences and Demand}\label{preferences-and-demand}}
 
-Tomek and Kaiser (\protect\hyperlink{ref-tomek2014}{2014}, Chapters 2 \& 3)
+\protect\hyperlink{ref-tomek2014}{Tomek and Kaiser} (\protect\hyperlink{ref-tomek2014}{2014}, Chapters 2 \& 3)
 
-Norton, Alwang, and Masters (\protect\hyperlink{ref-norton2022}{2022}, Chapter 3)
+\protect\hyperlink{ref-norton2022}{Norton, Alwang, and Masters} (\protect\hyperlink{ref-norton2022}{2022}, Chapter 3)
 
 \hypertarget{choice-and-individual-demand}{%
 \section{Choice and Individual Demand}\label{choice-and-individual-demand}}
@@ -167,10 +191,10 @@ In most cases, the income elasticity of demand has a positive value: as income i
   Suppose a consumer's individual demand function for some good is given by: \(q^d=4-0.1P\), where \(P\) is the market price of the good. Suppose there are a total of 20 such consumers on the market, and that the market price of the good is \$30. Obtain the price elasticity of demand on this market.
 \end{enumerate}
 
-\hypertarget{costs-and-supply}{%
-\chapter{Costs and Supply}\label{costs-and-supply}}
+\hypertarget{supply-and-market-structure}{%
+\chapter{Supply and Market Structure}\label{supply-and-market-structure}}
 
-Tomek and Kaiser (\protect\hyperlink{ref-tomek2014}{2014}, Chapters 4 \& 5)
+\protect\hyperlink{ref-tomek2014}{Tomek and Kaiser} (\protect\hyperlink{ref-tomek2014}{2014}, Chapters 4 \& 5)
 
 \hypertarget{costs-and-supply-by-a-single-firm}{%
 \section{Costs and Supply by a Single Firm}\label{costs-and-supply-by-a-single-firm}}
@@ -249,7 +273,7 @@ If these sellers collude, the market outcome under oligopoly can be identical to
 \hypertarget{prices-across-food-systems}{%
 \chapter{Prices Across Food Systems}\label{prices-across-food-systems}}
 
-Tomek and Kaiser (\protect\hyperlink{ref-tomek2014}{2014}, Chapters 6 \& 10)
+\protect\hyperlink{ref-tomek2014}{Tomek and Kaiser} (\protect\hyperlink{ref-tomek2014}{2014}, Chapters 6 \& 10)
 
 When we enjoy our pizza at a restaurant, or an oven roasted chicken at home, rarely (if at all) we contemplate about the chain of events---a system, and the actions of people involved in this system---that has brought the meal to our table. This \emph{agricultural marketing system}, also known as the \emph{food system}, links producers with consumers by transforming an agricultural commodity into a food product.
 
@@ -299,7 +323,7 @@ Assuming linear demand functions, and constant marketing costs, elasticity of de
 \hypertarget{prices-across-locations}{%
 \chapter{Prices Across Locations}\label{prices-across-locations}}
 
-Tomek and Kaiser (\protect\hyperlink{ref-tomek2014}{2014}, Chapter 8)
+\protect\hyperlink{ref-tomek2014}{Tomek and Kaiser} (\protect\hyperlink{ref-tomek2014}{2014}, Chapter 8)
 
 \hypertarget{spatial-arbitrage-and-market-integration}{%
 \section{Spatial Arbitrage and Market Integration}\label{spatial-arbitrage-and-market-integration}}
@@ -341,7 +365,7 @@ Implications of the structure of prices are that: the lowest-cost source determi
 \section*{Additional Readings}\label{additional-readings}}
 \addcontentsline{toc}{section}{Additional Readings}
 
-Barrett and Li (\protect\hyperlink{ref-barrett2002}{2002})
+\protect\hyperlink{ref-barrett2002}{Barrett and Li} (\protect\hyperlink{ref-barrett2002}{2002})
 
 \hypertarget{exercises-2}{%
 \section*{Exercises}\label{exercises-2}}
@@ -350,7 +374,7 @@ Barrett and Li (\protect\hyperlink{ref-barrett2002}{2002})
 \hypertarget{prices-across-time-periods}{%
 \chapter{Prices Across Time Periods}\label{prices-across-time-periods}}
 
-Tomek and Kaiser (\protect\hyperlink{ref-tomek2014}{2014}, Chapter 9), Goodwin, Grennes, and Craig (\protect\hyperlink{ref-goodwin2002}{2002})
+\protect\hyperlink{ref-tomek2014}{Tomek and Kaiser} (\protect\hyperlink{ref-tomek2014}{2014}, Chapter 9), \protect\hyperlink{ref-goodwin2002}{Goodwin, Grennes, and Craig} (\protect\hyperlink{ref-goodwin2002}{2002})
 
 Over time, demand and supply are affected by changes to their underlying factors (e.g., demand for meat may shift in the short run due to a food-scare or in the long run due to changes in dietary preferences; supply of maize may shift due to weather shocks or a price surge of soybeans). The dynamic behavior of commodity prices is a consequence of such changes.
 
@@ -465,7 +489,7 @@ If markets are inefficient, i.e., if price changes do not fully reflect informat
 \hypertarget{risk-and-insurance}{%
 \chapter{Risk and Insurance}\label{risk-and-insurance}}
 
-Norton, Alwang, and Masters (\protect\hyperlink{ref-norton2022}{2022}, Chapter 14)
+\protect\hyperlink{ref-norton2022}{Norton, Alwang, and Masters} (\protect\hyperlink{ref-norton2022}{2022}, Chapter 14)
 
 Because of complexities of physical and economic systems in agriculture, most processes that economic agents care about unfold with some degree of uncertainty. Uncertainty means that any given action can lead to many possible outcomes, albeit some more likely than others. Thus, decision--making under uncertainty is characterized by risk, as not all possible consequences are equally desirable.
 
@@ -539,12 +563,12 @@ Due to the informational nature of main barriers to successful crop insurance ma
 
 Revenue insurance, instead of yield insurance, mitigates somewhat the incidence of moral hazard and adverse selection. It also serves the main purpose of crop insurance as it addresses the issue of income risk facing producers.
 
-Yet another crop insurance mechanism, that can mitigate some of the aforementioned issues, is the so-called \emph{weather derivatives}. Such insurance is applicable because weather is intrinsically linked with agricultural production. Weather derivatives are based on historical weather data of the area where farm is located. Indemnity is triggered if weather conditions are ``bad'' relative to the historical normal. But correlation (or the lack of it) with yields can be an issue (e.g., not al farms are located in close proximity to weather stations).
+Yet another crop insurance mechanism, that can mitigate some of the aforementioned issues, is the so-called \emph{weather derivatives}. Such insurance is applicable because weather is intrinsically linked with agricultural production. Weather derivatives are based on historical weather data of the area where farm is located. Indemnity is triggered if weather conditions are ``bad'\,' relative to the historical normal. But correlation (or the lack of it) with yields can be an issue (e.g., not al farms are located in close proximity to weather stations).
 
 \hypertarget{international-trade}{%
 \chapter{International Trade}\label{international-trade}}
 
-Norton, Alwang, and Masters (\protect\hyperlink{ref-norton2022}{2022}, Chapters 16 \& 17)
+\protect\hyperlink{ref-norton2022}{Norton, Alwang, and Masters} (\protect\hyperlink{ref-norton2022}{2022}, Chapters 16 \& 17)
 
 Countries trade because some can produce certain commodities when others cannot (absolute advantage), or, more typically, because some can produce certain commodities more efficiently than others (comparative advantage).
 
@@ -616,9 +640,9 @@ Agreement on Agriculture, which was reached in the third and final phase of the 
 \hypertarget{additional-readings-1}{%
 \section{Additional Readings}\label{additional-readings-1}}
 
-Martin and Messerlin (\protect\hyperlink{ref-martin2007}{2007})
+\protect\hyperlink{ref-martin2007}{Martin and Messerlin} (\protect\hyperlink{ref-martin2007}{2007})
 
-Grant and Boys (\protect\hyperlink{ref-grant2012}{2012})
+\protect\hyperlink{ref-grant2012}{Grant and Boys} (\protect\hyperlink{ref-grant2012}{2012})
 
 \hypertarget{special-topics}{%
 \chapter*{Special Topics}\label{special-topics}}
@@ -632,22 +656,25 @@ Grant and Boys (\protect\hyperlink{ref-grant2012}{2012})
 \addcontentsline{toc}{chapter}{References}
 
 \hypertarget{refs}{}
+\begin{CSLReferences}{1}{0}
 \leavevmode\hypertarget{ref-barrett2002}{}%
-Barrett, Christopher B, and Jau Rong Li. 2002. ``Distinguishing Between Equilibrium and Integration in Spatial Price Analysis.'' \emph{American Journal of Agricultural Economics} 84 (2): 292--307.
+Barrett, Christopher B, and Jau Rong Li. 2002. {``{Distinguishing Between Equilibrium and Integration in Spatial Price Analysis}.''} \emph{American Journal of Agricultural Economics} 84 (2): 292--307.
 
 \leavevmode\hypertarget{ref-goodwin2002}{}%
-Goodwin, Barry K, Thomas J Grennes, and Lee A Craig. 2002. ``Mechanical Refrigeration and the Integration of Perishable Commodity Markets.'' \emph{Explorations in Economic History} 39 (2): 154--82.
+Goodwin, Barry K, Thomas J Grennes, and Lee A Craig. 2002. {``{Mechanical Refrigeration and the Integration of Perishable Commodity Markets}.''} \emph{Explorations in Economic History} 39 (2): 154--82.
 
 \leavevmode\hypertarget{ref-grant2012}{}%
-Grant, Jason H, and Kathryn A Boys. 2012. ``Agricultural Trade and the GATT/WTO: Does Membership Make a Difference?'' \emph{American Journal of Agricultural Economics} 94 (1): 1--24.
+Grant, Jason H, and Kathryn A Boys. 2012. {``{Agricultural Trade and the GATT/WTO: Does Membership Make a Difference?}''} \emph{American Journal of Agricultural Economics} 94 (1): 1--24.
 
 \leavevmode\hypertarget{ref-martin2007}{}%
-Martin, Will, and Patrick Messerlin. 2007. ``Why Is It So Difficult? Trade Liberalization Under the Doha Agenda.'' \emph{Oxford Review of Economic Policy} 23 (3): 347--66.
+Martin, Will, and Patrick Messerlin. 2007. {``{Why Is It So Difficult? Trade Liberalization Under the Doha Agenda}.''} \emph{Oxford Review of Economic Policy} 23 (3): 347--66.
 
 \leavevmode\hypertarget{ref-norton2022}{}%
 Norton, George W., Jeffrey Alwang, and William A. Masters. 2022. \emph{Economics of Agricultural Development: World Food Systems and Resource Use}. 4th ed. Routledge.
 
 \leavevmode\hypertarget{ref-tomek2014}{}%
 Tomek, William G, and Harry M Kaiser. 2014. \emph{Agricultural Product Prices}. 5th ed. Cornell University Press.
+
+\end{CSLReferences}
 
 \end{document}
