@@ -142,6 +142,7 @@ div.csl-indent {
 <li class="chapter" data-level="5.1" data-path="commodity-price-dynamics.html"><a href="commodity-price-dynamics.html#trends-and-shifts-in-price-levels"><i class="fa fa-check"></i><b>5.1</b> Trends and Shifts in Price Levels</a></li>
 <li class="chapter" data-level="5.2" data-path="commodity-price-dynamics.html"><a href="commodity-price-dynamics.html#seasonality-of-agricultural-commodity-prices"><i class="fa fa-check"></i><b>5.2</b> Seasonality of Agricultural Commodity Prices</a></li>
 <li class="chapter" data-level="5.3" data-path="commodity-price-dynamics.html"><a href="commodity-price-dynamics.html#price-cycles-and-the-cobweb-model"><i class="fa fa-check"></i><b>5.3</b> Price Cycles and the Cobweb Model</a></li>
+<li class="chapter" data-level="" data-path="commodity-price-dynamics.html"><a href="commodity-price-dynamics.html#exercises-4"><i class="fa fa-check"></i>Exercises</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="cash-and-futures-prices.html"><a href="cash-and-futures-prices.html"><i class="fa fa-check"></i><b>6</b> Cash and Futures Prices</a>
 <ul>
@@ -213,9 +214,23 @@ div.csl-indent {
 <div id="price-cycles-and-the-cobweb-model" class="section level2" number="5.3">
 <h2><span class="header-section-number">5.3</span> Price Cycles and the Cobweb Model</h2>
 <p>A cycle is a pattern that repeats itself over a time period that is longer than one year. The simplest variant of a price cycle has a fixed period (length of time, say, from peak to peak), but it rarely is the case. Cycle-like behaviour of prices is typically initiated by an external event (say, a drought). Such events may manifest themselves irregularly, and thus price cycles may also be characterized with irregular cycles. Moreover, due to the very nature of production process, the cycles may be asymmetric – a positive shock of a given magnitude may result in subsequent dynamic behaviour, which may be different from dynamics due to a negative shock of the same magnitude.</p>
-<p>Two factors facilitate cyclical behaviour in commodity prices: (i) the way expectations are formed, and (ii) the costs associated with responding to changed expectations. Due to the production lag, profit-maximizing decisions rely on expected (rather than actual) prices.</p>
+<p>Two factors facilitate cyclical behaviour in commodity prices:
+(i) the way expectations are formed, and
+(ii) the costs associated with responding to changed expectations.
+Due to the production lag, profit-maximizing decisions rely on expected (rather than actual) prices.</p>
 <p>To illustrate the point, consider a case of <em>naive expectations</em>: <span class="math display">\[p_{t+1}^{*} = p_{t}\]</span> where <span class="math inline">\(p_{t+1}^{*}\)</span> denotes the expected price for period <span class="math inline">\(t+1\)</span>, which is equal to an observed price in period <span class="math inline">\(t\)</span>. In addition, assume a competitive market (producers are price-takers), a market clearing price adjustment, and static supply and demand. Under the foregoing assumptions, a (one-off) shock to the market will result in a price (and quantity) cycles that will gradually dissolve.</p>
 <p>Somewhat more “sophisticated” models assume some form of <em>adaptive expectations</em>. Such models incorporate multiple lags of prices (i.e., <span class="math inline">\(p_{t-1},p_{t-2},\dots\)</span>) in forming the expected price of a commodity. The expected price then can be a geometric-weighted average of current and past prices, or a prediction from an autoregressive process. To that end, the naive expectations is a special case of the adaptive expectations.</p>
+</div>
+<div id="exercises-4" class="section level2 unnumbered">
+<h2>Exercises</h2>
+<ol style="list-style-type: decimal">
+<li>Suppose the marked demand for a commodity, in period <span class="math inline">\(t\)</span> is given by the following inverse demand function: <span class="math inline">\(P_t = 90 - Q_t\)</span>. Suppose producers’ price expectations are formed in a ‘naive’ fashion, so that the market supply function is: <span class="math inline">\(Q_t = 0.5P_{t-1}\)</span>.
+<ol style="list-style-type: lower-roman">
+<li>Under the assumptions of the <em>cobweb model</em>, will a shock to the system result in a convergent cycle, a divergent cycle, or a continuous cycle?</li>
+<li>Obtain the long-run market equilibrium price and quantity.</li>
+<li>Suppose the market was in equilibrium in period <span class="math inline">\(t-1\)</span>. However, unfavorable weather conditions in period <span class="math inline">\(t\)</span> shifted the supply curve upward by <span class="math inline">\(15\)</span>; that is, <span class="math inline">\(Q_t^{0} = 15+0.5P_{t-1}\)</span>. Assuming no other shocks to the system in any subsequent periods, obtain the market prices for periods <span class="math inline">\(t\)</span>, <span class="math inline">\(t+1\)</span>, and <span class="math inline">\(t+2\)</span>.</li>
+</ol></li>
+</ol>
 
 </div>
 </div>
