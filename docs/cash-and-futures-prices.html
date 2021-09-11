@@ -140,7 +140,7 @@ div.csl-indent {
 <li class="chapter" data-level="5" data-path="commodity-price-dynamics.html"><a href="commodity-price-dynamics.html"><i class="fa fa-check"></i><b>5</b> Commodity Price Dynamics</a>
 <ul>
 <li class="chapter" data-level="5.1" data-path="commodity-price-dynamics.html"><a href="commodity-price-dynamics.html#trends-and-shifts-in-price-levels"><i class="fa fa-check"></i><b>5.1</b> Trends and Shifts in Price Levels</a></li>
-<li class="chapter" data-level="5.2" data-path="commodity-price-dynamics.html"><a href="commodity-price-dynamics.html#seasonality-of-agricultural-commodity-prices"><i class="fa fa-check"></i><b>5.2</b> Seasonality of Agricultural Commodity Prices</a></li>
+<li class="chapter" data-level="5.2" data-path="commodity-price-dynamics.html"><a href="commodity-price-dynamics.html#storage-and-seasonality-of-agricultural-prices"><i class="fa fa-check"></i><b>5.2</b> Storage and Seasonality of Agricultural Prices</a></li>
 <li class="chapter" data-level="5.3" data-path="commodity-price-dynamics.html"><a href="commodity-price-dynamics.html#price-cycles-and-the-cobweb-model"><i class="fa fa-check"></i><b>5.3</b> Price Cycles and the Cobweb Model</a></li>
 <li class="chapter" data-level="" data-path="commodity-price-dynamics.html"><a href="commodity-price-dynamics.html#exercises-4"><i class="fa fa-check"></i>Exercises</a></li>
 </ul></li>
@@ -194,11 +194,7 @@ div.csl-indent {
             <section class="normal" id="section-">
 <div id="cash-and-futures-prices" class="section level1" number="6">
 <h1><span class="header-section-number">Chapter 6</span> Cash and Futures Prices</h1>
-<!-- ## Economics of Storage -->
-<!-- Storage has important price--stabilizing role over the marketing year, as it creates a pricing buffer by shifting stocks forward. In general, the driving force in price behaviour is *intertemporal arbitrage* by economic agents.  -->
-<p>For an annually produced storable commodity (e.g., grains) supply is given by the production in the current period, plus the beginning inventory (i.e., the leftover stocks from previous marketing year), and minus the ending inventory. The decision about the inventory storage depends on the relationship of the expected price for delivery in the future, relative to the current spot price. The driving force in the relationship between current and expected prices is <em>intertemporal arbitrage</em>.</p>
-<p>Mathematically, intertemporal arbitrage is given by the following equilibrium condition: <span class="math display">\[E\left(p_{t+1}|\Omega_t\right)-p_{t} = s_t,\]</span> where <span class="math inline">\(s_t\)</span> is the marginal cost of storage between periods <span class="math inline">\(t\)</span> and <span class="math inline">\(t+1\)</span>. That is, for any fixed period of storage, difference between the expected future price and the current price of a commodity must exactly equal the marginal cost of storage for that time interval.</p>
-<p>The aforementioned is referred to as the law of one price in a temporal context. If, for example, the expected price exceeds the current price by more than the cost of storage, an incentive exists to store a larger amount of inventory for future use. This, in turn, will have the effect of raising the current price and reducing the expected price. The process will continue until the equilibrium condition is met.</p>
+<p><span class="citation"><a href="#ref-tomek2014" role="doc-biblioref">Tomek and Kaiser</a> (<a href="#ref-tomek2014" role="doc-biblioref">2014</a>, Chapters 12 &amp; 13)</span></p>
 <div id="futures-contracts" class="section level2" number="6.1">
 <h2><span class="header-section-number">6.1</span> Futures Contracts</h2>
 <p>Futures markets provide a venue for trade of <em>futures contracts</em>. A futures contract is a legal instrument, enforceable by the rules of the exchange on which it is traded, to deliver or accept delivery of a specific amount of a commodity during a specified month at a price established in the market.</p>
@@ -214,7 +210,7 @@ div.csl-indent {
 </div>
 <div id="inventories-and-price-of-storage" class="section level2" number="6.2">
 <h2><span class="header-section-number">6.2</span> Inventories and Price of Storage</h2>
-<p>Because spot and futures prices are determined simultaneously (and are influenced by the same set of explanatory variables), they are correlated, but differ by a cost of storage. The difference between spot and futures prices is also referred to as the price of storage, which is the expected return from holding inventory and hedging. The relationship between the price of storage and the amount of inventory held is illustrated by an upward-sloping supply-of-storage function.</p>
+<p>Because spot and futures prices are determined simultaneously (and are influenced by the same set of fundamentals), they are correlated. But because holding the phisical commodity is costly, while holding the futures contracts is not, the spot and futures prices typically differ. This difference is referred to as the price of storage, which is the expected return from holding inventory and hedging. The relationship between the price of storage and the amount of inventory held is illustrated by an upward-sloping supply-of-storage function.</p>
 <p>The negative segment of the supply–of–storage curve implies positive inventories even when the return–on–storage is negative. This is due to the convenience yield—a benefit that accrues from having sufficient amount of stocks to maintain continuous business operation or to meet unexpected demands. Marginal convenience yield decreases and approaches zero as stocks increase. Marginal cost of storage remains constant up to a point, but may increase as inventories get large (storage capacity constraints).</p>
 </div>
 <div id="hedging" class="section level2" number="6.3">
@@ -230,12 +226,18 @@ div.csl-indent {
 <p>The efficient market hypothesis relies on the following assumptions:</p>
 <ul>
 <li>information is available at no cost;</li>
-<li>current price reflect all known information;</li>
-<li>new information (which occurs randomly) is reflected instantly (and correctly) onto a new price.</li>
+<li>current prices reflect all the available information;</li>
+<li>new information (which occurs randomly) is reflected instantly (and correctly) onto prices.</li>
 </ul>
-<p>The efficient markets support the random walk model, given by: <span class="math display">\[p_{f,t+1} = p_{f,t} + \varepsilon_{t+1},\;~~\varepsilon_{t+1}\sim iid\left(0,\sigma^2\right).\]</span></p>
-<p>If markets are inefficient, i.e., if price changes do not fully reflect information changes, then past prices can facilitate economically significant forecasts: <span class="math display">\[p_{f,t+1} = \beta_1 p_{f,t} + \beta_2 p_{f,t-1} + \ldots + \varepsilon_{t+1}.\]</span> This can happen, because not everyone has perfect information (semi-strong-form efficient vs. strong-form efficient), and moreover, even with perfect information, <em>bounded rationality</em> may result in sub-optimal decisions by market participants.</p>
+<p>Empirically, the efficient markets support the so-called random walk model, given by: <span class="math display">\[p_{f,t+1} = p_{f,t} + \varepsilon_{t+1},\;~~\varepsilon_{t+1}\sim iid\left(0,\sigma^2\right).\]</span> Thus, under the efficient market hypothesis, the best predictor of the future price is the present price (because the error term, which depicts information shocks, is mean-zero).</p>
+<p>If markets are inefficient, i.e., if price changes do not fully reflect information changes, then past prices can facilitate economically meaningful forecasts: <span class="math display">\[p_{f,t+1} = \beta_1 p_{f,t} + \beta_2 p_{f,t-1} + \ldots + \varepsilon_{t+1}.\]</span> In other words, there can be a model, e.g. an autoregressive model, that can yield forecasts that are, on average, more accurate than those from the random walk model. This can happen, because not everyone has perfect information (semi-strong-form efficient vs. strong-form efficient), and moreover, even with perfect information, <em>bounded rationality</em> may result in sub-optimal decisions by market participants.</p>
 
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-tomek2014" class="csl-entry">
+Tomek, William G, and Harry M Kaiser. 2014. <em>Agricultural Product Prices</em>. 5th ed. Cornell University Press.
 </div>
 </div>
             </section>

@@ -449,10 +449,18 @@ For agricultural commodities, a major factor in year-to-year price variability i
 
 In contrast to somewhat stable year-to-year changes, there are occasions when price levels shift to (and remain at) a new level. This may happen as a result of an abrupt (or, possibly, gradual within a relatively short period of time) structural change in commodity markets. For example, the entry of the former Soviet Union into the world market for grains in 1973 created a new source of demand that persisted, which resulted in a substantially high nominal prices. More recently, the so-called ``ethanol boom'' in the U.S. has shifted the prices of corn to a new, higher level.
 
-\hypertarget{seasonality-of-agricultural-commodity-prices}{%
-\section{Seasonality of Agricultural Commodity Prices}\label{seasonality-of-agricultural-commodity-prices}}
+\hypertarget{storage-and-seasonality-of-agricultural-prices}{%
+\section{Storage and Seasonality of Agricultural Prices}\label{storage-and-seasonality-of-agricultural-prices}}
 
-Seasonal price behaviour is a systematic pattern that occurs within a year, and repeats across the years. For food and agricultural commodities, the main source of seasonality is the supply-side effects. Although, demand-side effects are also occasionally evident (e.g., high demand for turkey meat in the U.S. around the Thanksgiving period in November). Assuming an annually produced storable commodity, and a perfectly competitive market, prices will be lowest just after the harvest, and rise at the rate of \emph{cost of storage} per unit of time.
+Seasonal price behaviour is a systematic pattern that occurs within a year, and repeats across the years. For food and agricultural commodities, the main source of seasonality is the supply-side effects. Although, demand-side effects are also occasionally evident (e.g., high demand for turkey meat in the U.S. around the Thanksgiving period in November).
+
+For an annually produced storable commodity (e.g., grains) supply is given by the production in the current period, plus the beginning inventory (i.e., the leftover stocks from previous marketing year), and minus the ending inventory. In a perfectly competitive market, prices will be lowest just after the harvest, and rise at the rate of \emph{cost of storage} per unit of time.
+
+The decision about the inventory storage depends on the relationship of the expected price for delivery in the future, relative to the current price. Storage has important price--stabilizing role over the marketing year, as it creates a pricing buffer by shifting stocks forward. The driving force in the relationship between current and expected prices is \emph{intertemporal arbitrage}.
+
+Mathematically, intertemporal arbitrage is given by the following equilibrium condition: \[E\left(p_{t+1}|\Omega_t\right)-p_{t} = s_t,\] where \(s_t\) is the marginal cost of storage between periods \(t\) and \(t+1\). That is, for any fixed period of storage, difference between the expected future price and the current price of a commodity must exactly equal the marginal cost of storage for that time interval.
+
+The aforementioned is referred to as the law of one price in a temporal context. If, for example, the expected price exceeds the current price by more than the cost of storage, an incentive exists to store a larger amount of inventory for future use. This, in turn, will have the effect of raising the current price and reducing the expected price. The process will continue until the equilibrium condition is met.
 
 The typical seasonal price pattern does not prevail each year. Prices may rise by more than the cost of storage, or they may even decline over the season. Economic agents act upon information related to expected production, available stocks, and expected changes in demand for a commodity. But the information is subject to change throughout the season. And prices will reflect those changes.
 
@@ -492,18 +500,14 @@ Somewhat more ``sophisticated'' models assume some form of \emph{adaptive expect
   \item
     Obtain the long-run market equilibrium price and quantity.
   \item
-    Suppose the market was in equilibrium in period \(t-1\). However, unfavorable weather conditions in period \(t\) shifted the supply curve upward by \(15\); that is, \(Q_t^{0} = 15+0.5P_{t-1}\). Assuming no other shocks to the system in any subsequent periods, obtain the market prices for periods \(t\), \(t+1\), and \(t+2\).
+    Suppose the market was in equilibrium in period \(t-1\). However, unfavorable weather conditions in period \(t\) shifted the supply curve upward so that: \(Q_t^{0} = -15+0.5P_{t-1}\). Assuming no other shocks to the system in any subsequent periods, obtain the market prices for periods \(t\), \(t+1\), and \(t+2\).
   \end{enumerate}
 \end{enumerate}
 
 \hypertarget{cash-and-futures-prices}{%
 \chapter{Cash and Futures Prices}\label{cash-and-futures-prices}}
 
-For an annually produced storable commodity (e.g., grains) supply is given by the production in the current period, plus the beginning inventory (i.e., the leftover stocks from previous marketing year), and minus the ending inventory. The decision about the inventory storage depends on the relationship of the expected price for delivery in the future, relative to the current spot price. The driving force in the relationship between current and expected prices is \emph{intertemporal arbitrage}.
-
-Mathematically, intertemporal arbitrage is given by the following equilibrium condition: \[E\left(p_{t+1}|\Omega_t\right)-p_{t} = s_t,\] where \(s_t\) is the marginal cost of storage between periods \(t\) and \(t+1\). That is, for any fixed period of storage, difference between the expected future price and the current price of a commodity must exactly equal the marginal cost of storage for that time interval.
-
-The aforementioned is referred to as the law of one price in a temporal context. If, for example, the expected price exceeds the current price by more than the cost of storage, an incentive exists to store a larger amount of inventory for future use. This, in turn, will have the effect of raising the current price and reducing the expected price. The process will continue until the equilibrium condition is met.
+\protect\hyperlink{ref-tomek2014}{Tomek and Kaiser} (\protect\hyperlink{ref-tomek2014}{2014}, Chapters 12 \& 13)
 
 \hypertarget{futures-contracts}{%
 \section{Futures Contracts}\label{futures-contracts}}
@@ -531,7 +535,7 @@ In practice, very few contracts are held until expiration (when the transfer of 
 \hypertarget{inventories-and-price-of-storage}{%
 \section{Inventories and Price of Storage}\label{inventories-and-price-of-storage}}
 
-Because spot and futures prices are determined simultaneously (and are influenced by the same set of explanatory variables), they are correlated, but differ by a cost of storage. The difference between spot and futures prices is also referred to as the price of storage, which is the expected return from holding inventory and hedging. The relationship between the price of storage and the amount of inventory held is illustrated by an upward-sloping supply-of-storage function.
+Because spot and futures prices are determined simultaneously (and are influenced by the same set of fundamentals), they are correlated. But because holding the phisical commodity is costly, while holding the futures contracts is not, the spot and futures prices typically differ. This difference is referred to as the price of storage, which is the expected return from holding inventory and hedging. The relationship between the price of storage and the amount of inventory held is illustrated by an upward-sloping supply-of-storage function.
 
 The negative segment of the supply--of--storage curve implies positive inventories even when the return--on--storage is negative. This is due to the convenience yield---a benefit that accrues from having sufficient amount of stocks to maintain continuous business operation or to meet unexpected demands. Marginal convenience yield decreases and approaches zero as stocks increase. Marginal cost of storage remains constant up to a point, but may increase as inventories get large (storage capacity constraints).
 
@@ -558,14 +562,14 @@ The efficient market hypothesis relies on the following assumptions:
 \item
   information is available at no cost;
 \item
-  current price reflect all known information;
+  current prices reflect all the available information;
 \item
-  new information (which occurs randomly) is reflected instantly (and correctly) onto a new price.
+  new information (which occurs randomly) is reflected instantly (and correctly) onto prices.
 \end{itemize}
 
-The efficient markets support the random walk model, given by: \[p_{f,t+1} = p_{f,t} + \varepsilon_{t+1},\;~~\varepsilon_{t+1}\sim iid\left(0,\sigma^2\right).\]
+Empirically, the efficient markets support the so-called random walk model, given by: \[p_{f,t+1} = p_{f,t} + \varepsilon_{t+1},\;~~\varepsilon_{t+1}\sim iid\left(0,\sigma^2\right).\] Thus, under the efficient market hypothesis, the best predictor of the future price is the present price (because the error term, which depicts information shocks, is mean-zero).
 
-If markets are inefficient, i.e., if price changes do not fully reflect information changes, then past prices can facilitate economically significant forecasts: \[p_{f,t+1} = \beta_1 p_{f,t} + \beta_2 p_{f,t-1} + \ldots + \varepsilon_{t+1}.\] This can happen, because not everyone has perfect information (semi-strong-form efficient vs.~strong-form efficient), and moreover, even with perfect information, \emph{bounded rationality} may result in sub-optimal decisions by market participants.
+If markets are inefficient, i.e., if price changes do not fully reflect information changes, then past prices can facilitate economically meaningful forecasts: \[p_{f,t+1} = \beta_1 p_{f,t} + \beta_2 p_{f,t-1} + \ldots + \varepsilon_{t+1}.\] In other words, there can be a model, e.g.~an autoregressive model, that can yield forecasts that are, on average, more accurate than those from the random walk model. This can happen, because not everyone has perfect information (semi-strong-form efficient vs.~strong-form efficient), and moreover, even with perfect information, \emph{bounded rationality} may result in sub-optimal decisions by market participants.
 
 \hypertarget{agricultural-policy}{%
 \chapter*{Agricultural Policy}\label{agricultural-policy}}
