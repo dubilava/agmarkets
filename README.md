@@ -17,16 +17,20 @@ The chapters are organized in four parts: *Market Fundamentals*---chapters 1-2, 
 
 ## Planned Changes
 
-The chapters will be organized in four parts: *Market Fundamentals*---chapters 1-3, *Price Relationships*---chapters 4-7, *Agricultural Policy*---chapters 8-9, and *Special Topics*--chapters 10-11. 
+The chapters will be organized as follows:
 
-1. Preferences and Demand
-2. Costs and Supply
-3. Markets and Prices
-4. Marketing System and Margins
-5. Spatial Integration and Trade
-6. Storage and Price Dynamics
-7. Futures Markets
-8. Risk, Insurance, and Pricing Policy
-9. Negotiations and Trade Policy
-10. Agricultural Markets and Conflict
-11. Agricultural Markets and Climate
+I.    Foundations of Markets and Price Determination
+      1. Preferences and Demand
+      2. Costs and Supply
+      3. Markets and Prices
+II.   Price Relationships
+      4. Marketing System and Margins
+      5. Spatial Integration and Trade
+      6. Storage and Price Dynamics
+      7. Futures Markets
+III.  Risk and Policy
+      8. Risk, Insurance, and Pricing Policy
+      9. International Negotiations and Trade Policy
+IV.   Special Topics
+      10. Conflict
+      11. Climate
