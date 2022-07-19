@@ -1,7 +1,7 @@
 This website compiles teaching material for the subject of agricultural markets. The lecture slides, some video recordings, and supplementary reading material for each topic are presented below.
 
 # Foundations of Markets and Price Determination
-## Introduction to Agrcultural Markets
+## Introduction to Agricultural Markets
 ## Preferences and Demand
 ## Costs and Supply
 ## Markets and Prices
