@@ -1,6 +1,6 @@
 p.caption {
-  color: #777;
-  margin-top: 10px;
+  color: darkgray;
+  margin-top: 0px;
 }
 p code {
   white-space: inherit;
@@ -13,12 +13,83 @@ pre code {
   white-space: inherit;
 }
 
-.book .book-header{height:44px}
 
-.book .book-summary{position:absolute;top:0;left:-300px;bottom:0;z-index:1;width:300px;color:#ffffff;background:#cd5c5c;border-right:1px solid rgba(0,0,0,.07);-webkit-transition:left 250ms ease;-moz-transition:left 250ms ease;-o-transition:left 250ms ease;transition:left 250ms ease}
 
-.book .book-summary ul.summary li.done>a{color:#ffffff;font-weight:400}
+.eqn-mouseover {
+              display: flex;
+              align-items: flex-start;
+              justify-content: flex-start;
+              padding-right: 50%;
+}
 
-.book .book-summary ul.summary li a,.book .book-summary ul.summary li span{display:block;padding:10px 15px;border-bottom:none;color:#ffffff;background:0 0;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;position:relative}
+@media only screen and (min-width : 761px) {
+              a.dropbtn {
+                             display: none;
+              }
 
-.book .book-summary ul.summary li a:hover,.book .book-summary ul.summary li.active>a{color:#cccccc;background:0 0;text-decoration:none}
+              div.dropdown-content {
+                             display: block;
+                             position: fixed;
+                             overflow-y:scroll;
+                             top: 0px;
+                             left: 0px;
+                             height: 100%;
+                             width: 20%;
+                             float: left;
+              }
+
+              html {
+                             padding-left: 10%
+              }
+}
+
+.panel-active section {
+		padding-top: 0;
+}
+
+.dropdown-content a:hover {
+    background-color: cornsilk;
+}
+
+li .dropbtn {
+    color: darkgray;
+}
+
+ul.navbar {
+		background-color: cornsilk;
+		color: indianred;
+}
+
+#active-page {
+		background-color: #ffffff;
+		color: indianred;
+}
+
+li.toc {
+		background-color: #ffffff;
+		padding-left: 10px;
+}
+
+h1 {
+	color: indianred;
+	border-bottom-color: indianred;
+}
+
+h2 {
+	color: indianred;
+	border-bottom-color: indianred;
+}
+
+h3 {
+	color: indianred;
+	border-bottom-color: indianred;
+}
+
+.title {
+	color: indianred;
+	line-height: 1.2;
+}
+
+.author {
+	color: indianred;
+}

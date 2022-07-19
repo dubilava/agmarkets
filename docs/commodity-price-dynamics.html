@@ -2,56 +2,69 @@
 <html lang="" xml:lang="">
 <head>
 
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 5 Commodity Price Dynamics | Agricultural Markets and Prices</title>
-  <meta name="description" content="Chapter 5 Commodity Price Dynamics | Agricultural Markets and Prices" />
-  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta property="og:title" content="Chapter 5 Commodity Price Dynamics | Agricultural Markets and Prices" />
+<meta property="og:type" content="book" />
 
-  <meta property="og:title" content="Chapter 5 Commodity Price Dynamics | Agricultural Markets and Prices" />
-  <meta property="og:type" content="book" />
-  
-  
-  
-  
 
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 5 Commodity Price Dynamics | Agricultural Markets and Prices" />
-  
-  
-  
+
 
 <meta name="author" content="David Ubilava" />
 
 
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="description" content="Chapter 5 Commodity Price Dynamics | Agricultural Markets and Prices">
+
+<title>Chapter 5 Commodity Price Dynamics | Agricultural Markets and Prices</title>
+
+<link href="libs/tufte-css-2015.12.29/tufte.css" rel="stylesheet" />
+<link href="libs/tufte-css-2015.12.29/envisioned.css" rel="stylesheet" />
+<link href="libs/msmb-css-0/msmb.css" rel="stylesheet" />
+<script>
+function toggle_visibility(id1, id2) {
+var e = document.getElementById(id1);
+var f = document.getElementById(id2);
+
+e.style.display = ((e.style.display!='none') ? 'none' : 'block');
+
+if(f.classList.contains('fa-plus-square')) {
+    f.classList.add('fa-minus-square')
+    f.classList.remove('fa-plus-square')
+} else {
+    f.classList.add('fa-plus-square')
+    f.classList.remove('fa-minus-square')
+}
+
+}
+</script>
+<script>
+function copy_link(id) {
+  var dummy = document.createElement('input'),
+  text = window.location.href.split(/[?#]/)[0] + '#' + id;
+  document.body.appendChild(dummy);
+  dummy.value = text;
+  dummy.select();
+  document.execCommand('copy');
+  document.body.removeChild(dummy);
   
-  
-<link rel="prev" href="market-integration-and-trade.html"/>
-<link rel="next" href="cash-and-futures-prices.html"/>
-<script src="libs/header-attrs-2.9.7/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
-<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+  var tooltip = document.getElementById(id + '-tooltip');
+  tooltip.innerHTML = 'Copied!';
+}
 
+function reset_tooltip(id) {
+  var tooltip = document.getElementById(id);
+  tooltip.innerHTML = 'Copy link';
+}
+</script>
 
-
-
-
-
-
-
-
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 
 
 
@@ -79,133 +92,68 @@ div.csl-indent {
 </style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
+
 </head>
 
 <body>
 
 
 
-  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
-
-    <div class="book-summary">
-      <nav role="navigation">
-
-<ul class="summary">
-<li><a href="./">Agricultural Markets and Prices</a></li>
-
-<li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preamble</a></li>
-<li class="chapter" data-level="" data-path="market-fundamentals.html"><a href="market-fundamentals.html"><i class="fa fa-check"></i>Market Fundamentals</a></li>
-<li class="chapter" data-level="1" data-path="preferences-and-demand.html"><a href="preferences-and-demand.html"><i class="fa fa-check"></i><b>1</b> Preferences and Demand</a>
-<ul>
-<li class="chapter" data-level="1.1" data-path="preferences-and-demand.html"><a href="preferences-and-demand.html#choice-and-individual-demand"><i class="fa fa-check"></i><b>1.1</b> Choice and Individual Demand</a></li>
-<li class="chapter" data-level="1.2" data-path="preferences-and-demand.html"><a href="preferences-and-demand.html#market-demand"><i class="fa fa-check"></i><b>1.2</b> Market Demand</a>
-<ul>
-<li class="chapter" data-level="1.2.1" data-path="preferences-and-demand.html"><a href="preferences-and-demand.html#demand-elasticities"><i class="fa fa-check"></i><b>1.2.1</b> Demand Elasticities</a></li>
-</ul></li>
-<li class="chapter" data-level="" data-path="preferences-and-demand.html"><a href="preferences-and-demand.html#exercises"><i class="fa fa-check"></i>Exercises</a></li>
-</ul></li>
-<li class="chapter" data-level="2" data-path="supply-and-market-structure.html"><a href="supply-and-market-structure.html"><i class="fa fa-check"></i><b>2</b> Supply and Market Structure</a>
-<ul>
-<li class="chapter" data-level="2.1" data-path="supply-and-market-structure.html"><a href="supply-and-market-structure.html#costs-and-supply-by-a-single-firm"><i class="fa fa-check"></i><b>2.1</b> Costs and Supply by a Single Firm</a></li>
-<li class="chapter" data-level="2.2" data-path="supply-and-market-structure.html"><a href="supply-and-market-structure.html#market-supply"><i class="fa fa-check"></i><b>2.2</b> Market Supply</a>
-<ul>
-<li class="chapter" data-level="2.2.1" data-path="supply-and-market-structure.html"><a href="supply-and-market-structure.html#supply-elasticity"><i class="fa fa-check"></i><b>2.2.1</b> Supply Elasticity</a></li>
-</ul></li>
-<li class="chapter" data-level="2.3" data-path="supply-and-market-structure.html"><a href="supply-and-market-structure.html#market-structure"><i class="fa fa-check"></i><b>2.3</b> Market Structure</a>
-<ul>
-<li class="chapter" data-level="2.3.1" data-path="supply-and-market-structure.html"><a href="supply-and-market-structure.html#perfect-competition"><i class="fa fa-check"></i><b>2.3.1</b> Perfect Competition</a></li>
-<li class="chapter" data-level="2.3.2" data-path="supply-and-market-structure.html"><a href="supply-and-market-structure.html#monopoly"><i class="fa fa-check"></i><b>2.3.2</b> Monopoly</a></li>
-<li class="chapter" data-level="2.3.3" data-path="supply-and-market-structure.html"><a href="supply-and-market-structure.html#oligopoly"><i class="fa fa-check"></i><b>2.3.3</b> Oligopoly</a></li>
-</ul></li>
-<li class="chapter" data-level="" data-path="supply-and-market-structure.html"><a href="supply-and-market-structure.html#exercises-1"><i class="fa fa-check"></i>Exercises</a></li>
-</ul></li>
-<li class="chapter" data-level="" data-path="price-relationships.html"><a href="price-relationships.html"><i class="fa fa-check"></i>Price Relationships</a></li>
-<li class="chapter" data-level="3" data-path="marketing-system-and-margins.html"><a href="marketing-system-and-margins.html"><i class="fa fa-check"></i><b>3</b> Marketing System and Margins</a>
-<ul>
-<li class="chapter" data-level="3.1" data-path="marketing-system-and-margins.html"><a href="marketing-system-and-margins.html#marketing-system"><i class="fa fa-check"></i><b>3.1</b> Marketing System</a></li>
-<li class="chapter" data-level="3.2" data-path="marketing-system-and-margins.html"><a href="marketing-system-and-margins.html#vertical-coordination"><i class="fa fa-check"></i><b>3.2</b> Vertical Coordination</a></li>
-<li class="chapter" data-level="3.3" data-path="marketing-system-and-margins.html"><a href="marketing-system-and-margins.html#marketing-margins"><i class="fa fa-check"></i><b>3.3</b> Marketing Margins</a></li>
-<li class="chapter" data-level="3.4" data-path="marketing-system-and-margins.html"><a href="marketing-system-and-margins.html#elasticity-of-derived-demand"><i class="fa fa-check"></i><b>3.4</b> Elasticity of Derived Demand</a></li>
-<li class="chapter" data-level="" data-path="marketing-system-and-margins.html"><a href="marketing-system-and-margins.html#exercises-2"><i class="fa fa-check"></i>Exercises</a></li>
-</ul></li>
-<li class="chapter" data-level="4" data-path="market-integration-and-trade.html"><a href="market-integration-and-trade.html"><i class="fa fa-check"></i><b>4</b> Market Integration and Trade</a>
-<ul>
-<li class="chapter" data-level="4.1" data-path="market-integration-and-trade.html"><a href="market-integration-and-trade.html#spatial-arbitrage-and-market-integration"><i class="fa fa-check"></i><b>4.1</b> Spatial Arbitrage and Market Integration</a></li>
-<li class="chapter" data-level="4.2" data-path="market-integration-and-trade.html"><a href="market-integration-and-trade.html#the-law-of-one-price"><i class="fa fa-check"></i><b>4.2</b> The Law of One Price</a></li>
-<li class="chapter" data-level="4.3" data-path="market-integration-and-trade.html"><a href="market-integration-and-trade.html#why-countries-trade"><i class="fa fa-check"></i><b>4.3</b> Why Countries Trade</a></li>
-<li class="chapter" data-level="4.4" data-path="market-integration-and-trade.html"><a href="market-integration-and-trade.html#gains-from-trade"><i class="fa fa-check"></i><b>4.4</b> Gains from Trade</a></li>
-<li class="chapter" data-level="" data-path="market-integration-and-trade.html"><a href="market-integration-and-trade.html#exercises-3"><i class="fa fa-check"></i>Exercises</a></li>
-</ul></li>
-<li class="chapter" data-level="5" data-path="commodity-price-dynamics.html"><a href="commodity-price-dynamics.html"><i class="fa fa-check"></i><b>5</b> Commodity Price Dynamics</a>
-<ul>
-<li class="chapter" data-level="5.1" data-path="commodity-price-dynamics.html"><a href="commodity-price-dynamics.html#trends-and-shifts-in-price-levels"><i class="fa fa-check"></i><b>5.1</b> Trends and Shifts in Price Levels</a></li>
-<li class="chapter" data-level="5.2" data-path="commodity-price-dynamics.html"><a href="commodity-price-dynamics.html#storage-and-seasonality-of-agricultural-prices"><i class="fa fa-check"></i><b>5.2</b> Storage and Seasonality of Agricultural Prices</a></li>
-<li class="chapter" data-level="5.3" data-path="commodity-price-dynamics.html"><a href="commodity-price-dynamics.html#price-cycles-and-the-cobweb-model"><i class="fa fa-check"></i><b>5.3</b> Price Cycles and the Cobweb Model</a></li>
-<li class="chapter" data-level="" data-path="commodity-price-dynamics.html"><a href="commodity-price-dynamics.html#exercises-4"><i class="fa fa-check"></i>Exercises</a></li>
-</ul></li>
-<li class="chapter" data-level="6" data-path="cash-and-futures-prices.html"><a href="cash-and-futures-prices.html"><i class="fa fa-check"></i><b>6</b> Cash and Futures Prices</a>
-<ul>
-<li class="chapter" data-level="6.1" data-path="cash-and-futures-prices.html"><a href="cash-and-futures-prices.html#futures-contracts"><i class="fa fa-check"></i><b>6.1</b> Futures Contracts</a></li>
-<li class="chapter" data-level="6.2" data-path="cash-and-futures-prices.html"><a href="cash-and-futures-prices.html#inventories-and-price-of-storage"><i class="fa fa-check"></i><b>6.2</b> Inventories and Price of Storage</a></li>
-<li class="chapter" data-level="6.3" data-path="cash-and-futures-prices.html"><a href="cash-and-futures-prices.html#hedging"><i class="fa fa-check"></i><b>6.3</b> Hedging</a></li>
-<li class="chapter" data-level="6.4" data-path="cash-and-futures-prices.html"><a href="cash-and-futures-prices.html#futures-price-responses-to-information"><i class="fa fa-check"></i><b>6.4</b> Futures Price Responses to Information</a></li>
-</ul></li>
-<li class="chapter" data-level="" data-path="agricultural-policy.html"><a href="agricultural-policy.html"><i class="fa fa-check"></i>Agricultural Policy</a></li>
-<li class="chapter" data-level="7" data-path="risk-and-insurance.html"><a href="risk-and-insurance.html"><i class="fa fa-check"></i><b>7</b> Risk and Insurance</a>
-<ul>
-<li class="chapter" data-level="7.1" data-path="risk-and-insurance.html"><a href="risk-and-insurance.html#managing-risk-via-futures-markets"><i class="fa fa-check"></i><b>7.1</b> Managing Risk via Futures Markets</a></li>
-<li class="chapter" data-level="7.2" data-path="risk-and-insurance.html"><a href="risk-and-insurance.html#managing-risk-via-insurance"><i class="fa fa-check"></i><b>7.2</b> Managing Risk via Insurance</a></li>
-<li class="chapter" data-level="7.3" data-path="risk-and-insurance.html"><a href="risk-and-insurance.html#insurance-market-failures"><i class="fa fa-check"></i><b>7.3</b> Insurance Market Failures</a>
-<ul>
-<li class="chapter" data-level="7.3.1" data-path="risk-and-insurance.html"><a href="risk-and-insurance.html#moral-hazard"><i class="fa fa-check"></i><b>7.3.1</b> Moral Hazard</a></li>
-<li class="chapter" data-level="7.3.2" data-path="risk-and-insurance.html"><a href="risk-and-insurance.html#adverse-selection"><i class="fa fa-check"></i><b>7.3.2</b> Adverse Selection</a></li>
-</ul></li>
-<li class="chapter" data-level="7.4" data-path="risk-and-insurance.html"><a href="risk-and-insurance.html#mitigating-the-market-failures"><i class="fa fa-check"></i><b>7.4</b> Mitigating the Market Failures</a></li>
-</ul></li>
-<li class="chapter" data-level="8" data-path="trade-policy.html"><a href="trade-policy.html"><i class="fa fa-check"></i><b>8</b> Trade Policy</a>
-<ul>
-<li class="chapter" data-level="8.1" data-path="trade-policy.html"><a href="trade-policy.html#free-trade-vs.-protectionism"><i class="fa fa-check"></i><b>8.1</b> Free Trade vs. Protectionism</a>
-<ul>
-<li class="chapter" data-level="8.1.1" data-path="trade-policy.html"><a href="trade-policy.html#the-terms-of-trade"><i class="fa fa-check"></i><b>8.1.1</b> The Terms of Trade</a></li>
-</ul></li>
-<li class="chapter" data-level="8.2" data-path="trade-policy.html"><a href="trade-policy.html#international-trade-negotiations"><i class="fa fa-check"></i><b>8.2</b> International Trade Negotiations</a></li>
-<li class="chapter" data-level="8.3" data-path="trade-policy.html"><a href="trade-policy.html#agriculture-in-the-trade-negotiations"><i class="fa fa-check"></i><b>8.3</b> Agriculture in the Trade Negotiations</a></li>
-</ul></li>
-<li class="chapter" data-level="" data-path="special-topics.html"><a href="special-topics.html"><i class="fa fa-check"></i>Special Topics</a></li>
-<li class="chapter" data-level="9" data-path="prices-and-conflict.html"><a href="prices-and-conflict.html"><i class="fa fa-check"></i><b>9</b> Prices and Conflict</a></li>
-<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<div class="row">
+<div class="col-sm-12">
+<div id="TOC">
+<ul class="navbar">
+<li class="msmb"><p class="title">Agricultural Markets and Prices<p><p class="author">David Ubilava</p>
+<li class="dropdown" style="float:right">
+<a href="javascript:void(0)" class="dropbtn">&#x25BE; Chapters</a>
+<div class="dropdown-content">
+<a href="index.html">Preamble</a>
+<a href="market-fundamentals.html">Market Fundamentals</a>
+<a href="preferences-and-demand.html"><span class="toc-section-number">1</span> Preferences and Demand</a>
+<a href="supply-and-market-structure.html"><span class="toc-section-number">2</span> Supply and Market Structure</a>
+<a href="price-relationships.html">Price Relationships</a>
+<a href="marketing-system-and-margins.html"><span class="toc-section-number">3</span> Marketing System and Margins</a>
+<a href="market-integration-and-trade.html"><span class="toc-section-number">4</span> Market Integration and Trade</a>
+<a id="active-page" href="commodity-price-dynamics.html"><span class="toc-section-number">5</span> Commodity Price Dynamics</a><ul class="toc-sections">
+<li class="toc"><a href="#trends-and-shifts-in-price-levels"> Trends and Shifts in Price Levels</a></li>
+<li class="toc"><a href="#storage-and-seasonality-of-agricultural-prices"> Storage and Seasonality of Agricultural Prices</a></li>
+<li class="toc"><a href="#price-cycles-and-the-cobweb-model"> Price Cycles and the Cobweb Model</a></li>
+<li class="toc"><a href="#exercises-4">NA</a></li>
 </ul>
-
-      </nav>
-    </div>
-
-    <div class="book-body">
-      <div class="body-inner">
-        <div class="book-header" role="navigation">
-          <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Agricultural Markets and Prices</a>
-          </h1>
-        </div>
-
-        <div class="page-wrapper" tabindex="-1" role="main">
-          <div class="page-inner">
-
-            <section class="normal" id="section-">
+<a href="cash-and-futures-prices.html"><span class="toc-section-number">6</span> Cash and Futures Prices</a>
+<a href="agricultural-policy.html">Agricultural Policy</a>
+<a href="risk-and-insurance.html"><span class="toc-section-number">7</span> Risk and Insurance</a>
+<a href="trade-policy.html"><span class="toc-section-number">8</span> Trade Policy</a>
+<a href="special-topics.html">Special Topics</a>
+<a href="prices-and-conflict.html"><span class="toc-section-number">9</span> Prices and Conflict</a>
+<a href="references.html">References</a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
 <div id="commodity-price-dynamics" class="section level1" number="5">
-<h1><span class="header-section-number">Chapter 5</span> Commodity Price Dynamics</h1>
-<p><span class="citation"><a href="#ref-tomek2014" role="doc-biblioref">Tomek and Kaiser</a> (<a href="#ref-tomek2014" role="doc-biblioref">2014</a>, Chapter 9)</span></p>
+<h1>
+<span class="header-section-number">Chapter 5</span> Commodity Price Dynamics</h1>
+<p><span class="citation">Tomek and Kaiser (<a href="references.html#ref-tomek2014" role="doc-biblioref">2014, chap. 9</a>)</span></p>
 <p>Over time, demand and supply are affected by changes to their underlying factors (e.g., demand for meat may shift in the short run due to a food-scare or in the long run due to changes in dietary preferences; supply of maize may shift due to weather shocks or a price surge of soybeans). The dynamic behavior of commodity prices is a consequence of such changes.</p>
 <p>These changes may result in trends, cycles, and seasonality in the commodity prices dynamics. A commodity price series may exhibit one or several of these features (e.g., seasonality is a likely feature of annually harvested agricultural commodity prices; prices of meat typically follow a cyclical pattern, etc.). Over time, the underlying factors of a commodity price behavior may change. Not only this can manifest into the trends in the commodity price series, but it can also alter the previously observed seasonal and cyclical patterns. For example, previously perishable products—such as meat, eggs, butter—became “storable” with the invention of refrigeration, which had an important impact on price dynamics of the affected agricultural commodities.</p>
 <div id="trends-and-shifts-in-price-levels" class="section level2" number="5.1">
-<h2><span class="header-section-number">5.1</span> Trends and Shifts in Price Levels</h2>
+<h2>
+<span class="header-section-number">5.1</span> Trends and Shifts in Price Levels<div class="tooltip"><button class="internal-link-btn" onclick="copy_link('trends-and-shifts-in-price-levels')" onmouseout="reset_tooltip('trends-and-shifts-in-price-levels-tooltip')"><span class="tooltiptext" id="trends-and-shifts-in-price-levels-tooltip">Copy link</span><i class="fa fa-link"></i></button></div>
+</h2>
 <p>Commodity prices may exhibit time–specific shifts in average price levels. A continuum of such shifts result in price trends. Trends usually are presented by persistent upward (or downward) movements in prices over a reasonably long period of time. Recall that observed prices are equilibrium market prices, governed by supply and demand schedules. For an observable trend in a commodity price series, continuous relative shifts in supply and demand must occur. For example, a continuous stream of new production technology may cause the supply function to steadily shift rightward, resulting in a downward trend in observed prices.</p>
 <p>For agricultural commodities, a major factor in year-to-year price variability is change in annual supply. Crops have swings in annual production, because of changing expectations about returns as well as climatic and biological factors of production. Inventories and imports may mitigate the effects of a small crop in a particular region, unless the effect has worldwide manifestation.</p>
 <p>In contrast to somewhat stable year-to-year changes, there are occasions when price levels shift to (and remain at) a new level. This may happen as a result of an abrupt (or, possibly, gradual within a relatively short period of time) structural change in commodity markets. For example, the entry of the former Soviet Union into the world market for grains in 1973 created a new source of demand that persisted, which resulted in a substantially high nominal prices. More recently, the so-called “ethanol boom” in the U.S. has shifted the prices of corn to a new, higher level.
 <!-- Although it is difficult to ascertain whether a change in a price level is transitory of persistent, shifts in price levels should be distinguished from continuous trends. --></p>
 </div>
 <div id="storage-and-seasonality-of-agricultural-prices" class="section level2" number="5.2">
-<h2><span class="header-section-number">5.2</span> Storage and Seasonality of Agricultural Prices</h2>
+<h2>
+<span class="header-section-number">5.2</span> Storage and Seasonality of Agricultural Prices<div class="tooltip"><button class="internal-link-btn" onclick="copy_link('storage-and-seasonality-of-agricultural-prices')" onmouseout="reset_tooltip('storage-and-seasonality-of-agricultural-prices-tooltip')"><span class="tooltiptext" id="storage-and-seasonality-of-agricultural-prices-tooltip">Copy link</span><i class="fa fa-link"></i></button></div>
+</h2>
 <p>Seasonal price behaviour is a systematic pattern that occurs within a year, and repeats across the years. For food and agricultural commodities, the main source of seasonality is the supply-side effects. Although, demand-side effects are also occasionally evident (e.g., high demand for turkey meat in the U.S. around the Thanksgiving period in November).</p>
 <p>For an annually produced storable commodity (e.g., grains) supply is given by the production in the current period, plus the beginning inventory (i.e., the leftover stocks from previous marketing year), and minus the ending inventory. In a perfectly competitive market, prices will be lowest just after the harvest, and rise at the rate of <em>cost of storage</em> per unit of time.</p>
 <p>The decision about the inventory storage depends on the relationship of the expected price for delivery in the future, relative to the current price. Storage has important price–stabilizing role over the marketing year, as it creates a pricing buffer by shifting stocks forward. The driving force in the relationship between current and expected prices is <em>intertemporal arbitrage</em>.</p>
@@ -216,7 +164,9 @@ div.csl-indent {
 <p>Not only prices increase, but they also become more variable as the storage season progresses. i.e., the price variability immediately after harvest is smaller than the price variability during months later in the marketing year. Within a marketing year, inventories are declining, and when inventories are small late in the season, changes in expectations can have a large price effects (spikes).</p>
 </div>
 <div id="price-cycles-and-the-cobweb-model" class="section level2" number="5.3">
-<h2><span class="header-section-number">5.3</span> Price Cycles and the Cobweb Model</h2>
+<h2>
+<span class="header-section-number">5.3</span> Price Cycles and the Cobweb Model<div class="tooltip"><button class="internal-link-btn" onclick="copy_link('price-cycles-and-the-cobweb-model')" onmouseout="reset_tooltip('price-cycles-and-the-cobweb-model-tooltip')"><span class="tooltiptext" id="price-cycles-and-the-cobweb-model-tooltip">Copy link</span><i class="fa fa-link"></i></button></div>
+</h2>
 <p>A cycle is a pattern that repeats itself over a time period that is longer than one year. The simplest variant of a price cycle has a fixed period (length of time, say, from peak to peak), but it rarely is the case. Cycle-like behaviour of prices is typically initiated by an external event (say, a drought). Such events may manifest themselves irregularly, and thus price cycles may also be characterized with irregular cycles. Moreover, due to the very nature of production process, the cycles may be asymmetric – a positive shock of a given magnitude may result in subsequent dynamic behaviour, which may be different from dynamics due to a negative shock of the same magnitude.</p>
 <p>Two factors facilitate cyclical behaviour in commodity prices:
 (i) the way expectations are formed, and
@@ -226,95 +176,32 @@ Due to the production lag, profit-maximizing decisions rely on expected (rather 
 <p>Somewhat more “sophisticated” models assume some form of <em>adaptive expectations</em>. Such models incorporate multiple lags of prices (i.e., <span class="math inline">\(p_{t-1},p_{t-2},\dots\)</span>) in forming the expected price of a commodity. The expected price then can be a geometric-weighted average of current and past prices, or a prediction from an autoregressive process. To that end, the naive expectations is a special case of the adaptive expectations.</p>
 </div>
 <div id="exercises-4" class="section level2 unnumbered">
-<h2>Exercises</h2>
+<h2>Exercises<div class="tooltip"><button class="internal-link-btn" onclick="copy_link('exercises-4')" onmouseout="reset_tooltip('exercises-4-tooltip')"><span class="tooltiptext" id="exercises-4-tooltip">Copy link</span><i class="fa fa-link"></i></button></div>
+</h2>
 <ol style="list-style-type: decimal">
 <li>Suppose the marked demand for a commodity, in period <span class="math inline">\(t\)</span> is given by the following inverse demand function: <span class="math inline">\(P_t = 90 - Q_t\)</span>. Suppose producers’ price expectations are formed in a ‘naive’ fashion, so that the market supply function is: <span class="math inline">\(Q_t = 0.5P_{t-1}\)</span>.
 <ol style="list-style-type: lower-roman">
 <li>Under the assumptions of the <em>cobweb model</em>, will a shock to the system result in a convergent cycle, a divergent cycle, or a continuous cycle?</li>
 <li>Obtain the long-run market equilibrium price and quantity.</li>
 <li>Suppose the market was in equilibrium in period <span class="math inline">\(t-1\)</span>. However, unfavorable weather conditions in period <span class="math inline">\(t\)</span> shifted the supply curve upward so that: <span class="math inline">\(Q_t^{0} = -15+0.5P_{t-1}\)</span>. Assuming no other shocks to the system in any subsequent periods, obtain the market prices for periods <span class="math inline">\(t\)</span>, <span class="math inline">\(t+1\)</span>, and <span class="math inline">\(t+2\)</span>.</li>
-</ol></li>
 </ol>
+</li>
+</ol>
+</div>
+</div>
+<p style="text-align: center;">
+<a href="market-integration-and-trade.html"><button class="btn btn-default">Previous</button></a>
+<a href="cash-and-futures-prices.html"><button class="btn btn-default">Next</button></a>
+</p>
+<p class="build-date">Page built: 
+2022-07-19
+ using 
+R version 4.1.2 (2021-11-01)
+</p>
+</div>
+</div>
 
-</div>
-</div>
-<h3>References</h3>
-<div id="refs" class="references csl-bib-body hanging-indent">
-<div id="ref-tomek2014" class="csl-entry">
-Tomek, William G, and Harry M Kaiser. 2014. <em>Agricultural Product Prices</em>. 5th ed. Cornell University Press.
-</div>
-</div>
-            </section>
 
-          </div>
-        </div>
-      </div>
-<a href="market-integration-and-trade.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="cash-and-futures-prices.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
-    </div>
-  </div>
-<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
-<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
-<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
-<script>
-gitbook.require(["gitbook"], function(gitbook) {
-gitbook.start({
-"sharing": {
-"github": false,
-"facebook": true,
-"twitter": true,
-"linkedin": false,
-"weibo": false,
-"instapaper": false,
-"vk": false,
-"whatsapp": false,
-"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
-},
-"fontsettings": {
-"theme": "white",
-"family": "sans",
-"size": 2
-},
-"edit": {
-"link": null,
-"text": null
-},
-"history": {
-"link": null,
-"text": null
-},
-"view": {
-"link": null,
-"text": null
-},
-"download": ["agmarkets.pdf"],
-"toc": {
-"collapse": "section"
-}
-});
-});
-</script>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    var src = "true";
-    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:")
-      if (/^https?:/.test(src))
-        src = src.replace(/^https?:/, '');
-    script.src = src;
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 </body>
-
 </html>
