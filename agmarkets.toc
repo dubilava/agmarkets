@@ -1,0 +1,55 @@
+\contentsline {chapter}{Preamble}{3}{chapter*.2}% 
+\contentsline {chapter}{Market Fundamentals}{4}{chapter*.3}% 
+\contentsline {chapter}{\numberline {1}Preferences and Demand}{5}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Choice and Individual Demand}{5}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Market Demand}{6}{section.1.2}% 
+\contentsline {subsection}{\numberline {1.2.1}Demand Elasticities}{6}{subsection.1.2.1}% 
+\contentsline {section}{Exercises}{9}{section*.4}% 
+\contentsline {chapter}{\numberline {2}Supply and Market Structure}{10}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Costs and Supply by a Single Firm}{10}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}Market Supply}{11}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}Supply Elasticity}{11}{subsection.2.2.1}% 
+\contentsline {section}{\numberline {2.3}Market Structure}{12}{section.2.3}% 
+\contentsline {subsection}{\numberline {2.3.1}Perfect Competition}{12}{subsection.2.3.1}% 
+\contentsline {subsection}{\numberline {2.3.2}Monopoly}{12}{subsection.2.3.2}% 
+\contentsline {subsection}{\numberline {2.3.3}Oligopoly}{12}{subsection.2.3.3}% 
+\contentsline {section}{Exercises}{12}{section*.5}% 
+\contentsline {chapter}{Price Relationships}{14}{chapter*.6}% 
+\contentsline {chapter}{\numberline {3}Marketing System and Margins}{15}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Marketing System}{15}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Vertical Coordination}{16}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}Marketing Margins}{16}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}Elasticity of Derived Demand}{17}{section.3.4}% 
+\contentsline {section}{Exercises}{18}{section*.7}% 
+\contentsline {chapter}{\numberline {4}Market Integration and Trade}{19}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Spatial Arbitrage and Market Integration}{19}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}The Law of One Price}{20}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Why Countries Trade}{21}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Gains from Trade}{22}{section.4.4}% 
+\contentsline {section}{Exercises}{22}{section*.8}% 
+\contentsline {chapter}{\numberline {5}Commodity Price Dynamics}{23}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Trends and Shifts in Price Levels}{23}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Storage and Seasonality of Agricultural Prices}{24}{section.5.2}% 
+\contentsline {section}{\numberline {5.3}Price Cycles and the Cobweb Model}{25}{section.5.3}% 
+\contentsline {section}{Exercises}{26}{section*.9}% 
+\contentsline {chapter}{\numberline {6}Cash and Futures Prices}{27}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Futures Contracts}{27}{section.6.1}% 
+\contentsline {section}{\numberline {6.2}Inventories and Price of Storage}{28}{section.6.2}% 
+\contentsline {section}{\numberline {6.3}Hedging}{28}{section.6.3}% 
+\contentsline {section}{\numberline {6.4}Futures Price Responses to Information}{29}{section.6.4}% 
+\contentsline {chapter}{Agricultural Policy}{30}{chapter*.10}% 
+\contentsline {chapter}{\numberline {7}Risk and Insurance}{31}{chapter.7}% 
+\contentsline {section}{\numberline {7.1}Managing Risk via Futures Markets}{32}{section.7.1}% 
+\contentsline {section}{\numberline {7.2}Managing Risk via Insurance}{33}{section.7.2}% 
+\contentsline {section}{\numberline {7.3}Insurance Market Failures}{33}{section.7.3}% 
+\contentsline {subsection}{\numberline {7.3.1}Moral Hazard}{33}{subsection.7.3.1}% 
+\contentsline {subsection}{\numberline {7.3.2}Adverse Selection}{34}{subsection.7.3.2}% 
+\contentsline {section}{\numberline {7.4}Mitigating the Market Failures}{34}{section.7.4}% 
+\contentsline {chapter}{\numberline {8}Trade Policy}{35}{chapter.8}% 
+\contentsline {section}{\numberline {8.1}Free Trade vs.\nobreakspace {}Protectionism}{35}{section.8.1}% 
+\contentsline {subsection}{\numberline {8.1.1}The Terms of Trade}{37}{subsection.8.1.1}% 
+\contentsline {section}{\numberline {8.2}International Trade Negotiations}{37}{section.8.2}% 
+\contentsline {section}{\numberline {8.3}Agriculture in the Trade Negotiations}{38}{section.8.3}% 
+\contentsline {chapter}{Special Topics}{40}{chapter*.11}% 
+\contentsline {chapter}{\numberline {9}Prices and Conflict}{41}{chapter.9}% 
+\contentsline {chapter}{References}{42}{chapter*.12}% 

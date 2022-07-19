@@ -1,0 +1,95 @@
+p.caption {
+  color: darkgray;
+  margin-top: 0px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+
+
+.eqn-mouseover {
+              display: flex;
+              align-items: flex-start;
+              justify-content: flex-start;
+              padding-right: 50%;
+}
+
+@media only screen and (min-width : 761px) {
+              a.dropbtn {
+                             display: none;
+              }
+
+              div.dropdown-content {
+                             display: block;
+                             position: fixed;
+                             overflow-y:scroll;
+                             top: 0px;
+                             left: 0px;
+                             height: 100%;
+                             width: 20%;
+                             float: left;
+              }
+
+              html {
+                             padding-left: 10%
+              }
+}
+
+.panel-active section {
+		padding-top: 0;
+}
+
+.dropdown-content a:hover {
+    background-color: cornsilk;
+}
+
+li .dropbtn {
+    color: darkgray;
+}
+
+ul.navbar {
+		background-color: cornsilk;
+		color: indianred;
+}
+
+#active-page {
+		background-color: #ffffff;
+		color: indianred;
+}
+
+li.toc {
+		background-color: #ffffff;
+		padding-left: 10px;
+}
+
+h1 {
+	color: indianred;
+	border-bottom-color: indianred;
+}
+
+h2 {
+	color: indianred;
+	border-bottom-color: indianred;
+}
+
+h3 {
+	color: indianred;
+	border-bottom-color: indianred;
+}
+
+.title {
+	color: indianred;
+	line-height: 1.2;
+}
+
+.author {
+	color: indianred;
+}

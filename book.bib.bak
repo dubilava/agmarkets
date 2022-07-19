@@ -1,0 +1,84 @@
+% Encoding: UTF-8
+
+@Book{tomek2014,
+  author    = {Tomek, William G and Kaiser, Harry M},
+  publisher = {Cornell University Press},
+  title     = {Agricultural Product Prices},
+  year      = {2014},
+  edition   = {5th},
+}
+
+@Article{myers2010,
+  author    = {Myers, Robert J and Sexton, Richard J and Tomek, William G},
+  journal   = {American Journal of Agricultural Economics},
+  title     = {{A Century of Research on Agricultural Markets}},
+  year      = {2010},
+  number    = {2},
+  pages     = {376--403},
+  volume    = {92},
+  publisher = {Oxford University Press},
+}
+
+@Article{goodwin2002,
+  author    = {Goodwin, Barry K and Grennes, Thomas J and Craig, Lee A},
+  journal   = {Explorations in Economic History},
+  title     = {{Mechanical Refrigeration and the Integration of Perishable Commodity Markets}},
+  year      = {2002},
+  number    = {2},
+  pages     = {154--182},
+  volume    = {39},
+  publisher = {Elsevier},
+}
+
+@Article{barrett2002,
+  author    = {Barrett, Christopher B and Li, Jau Rong},
+  journal   = {American Journal of Agricultural Economics},
+  title     = {{Distinguishing Between Equilibrium and Integration in Spatial Price Analysis}},
+  year      = {2002},
+  number    = {2},
+  pages     = {292--307},
+  volume    = {84},
+  publisher = {Wiley Online Library},
+}
+
+@Article{grant2012,
+  author    = {Grant, Jason H and Boys, Kathryn A},
+  journal   = {American Journal of Agricultural Economics},
+  title     = {{Agricultural Trade and the GATT/WTO: Does Membership Make a Difference?}},
+  year      = {2012},
+  number    = {1},
+  pages     = {1--24},
+  volume    = {94},
+  publisher = {Oxford University Press},
+}
+
+@article{orden2020,
+  author={Orden, David},
+  journal={EuroChoices},
+  title={{Resilience and Vulnerabilities of the North American Food System during the Covid-19 Pandemic}},
+  year      = {2020},
+  publisher={Wiley Online Library}
+}
+
+@Article{bellemare2018,
+  author    = {Bellemare, Marc F and Bloem, Jeffrey R},
+  journal   = {World Development},
+  title     = {{Does Contract Farming Improve Welfare? A Review}},
+  year      = {2018},
+  pages     = {259--271},
+  volume    = {112},
+  publisher = {Elsevier},
+}
+
+@Article{martin2007,
+  author    = {Will Martin and Patrick Messerlin},
+  journal   = {Oxford Review of Economic Policy},
+  title     = {{Why Is It So Difficult? Trade Liberalization Under the Doha Agenda}},
+  year      = {2007},
+  number    = {3},
+  pages     = {347--366},
+  volume    = {23},
+  publisher = {Oxford University Press},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

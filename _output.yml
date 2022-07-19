@@ -1,0 +1,10 @@
+msmbstyle::msmb_html_book:
+    toc: TRUE
+    toc_depth: 1
+    split_by: chapter
+    split_bib: no
+    margin_references: FALSE
+    output_file: agmarkets
+    css: style.css
+  
+  
