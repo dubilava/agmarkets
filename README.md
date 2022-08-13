@@ -6,8 +6,10 @@ This website compiles teaching material for the subject of agricultural markets.
 - [Lecture slides](https://davidubilava.com/agmarkets_slides/01-Intro.html)
 
 ## Preferences and Demand
+- [Lecture slides](https://davidubilava.com/agmarkets_slides/02-Demand.html)
 
 ## Costs and Supply
+- [Lecture slides](https://davidubilava.com/agmarkets_slides/03-Supply.html)
 
 ## Markets and Prices
 
