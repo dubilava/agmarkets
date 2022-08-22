@@ -11,7 +11,8 @@ This website compiles teaching material for the subject of agricultural markets.
 ## Costs and Supply
 - [Lecture slides](https://davidubilava.com/agmarkets_slides/03-Supply.html)
 
-## Markets and Prices
+## Market Structure and Price Determination
+- [Lecture slides](https://davidubilava.com/agmarkets_slides/04-Prices.html)
 
 # Price Relationships
 
