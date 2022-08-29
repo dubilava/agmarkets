@@ -18,6 +18,8 @@ This website compiles teaching material for the subject of agricultural markets.
 
 ## Marketing System and Margins
 
+- [Lecture slides](https://davidubilava.com/agmarkets_slides/05-Vertical.html)
+
 ## Spatial Integration and Trade
 
 ## Storage and Price Dynamics
