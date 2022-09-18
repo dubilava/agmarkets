@@ -22,9 +22,15 @@ This website compiles teaching material for the subject of agricultural markets.
 
 ## Spatial Integration and Trade
 
+- [Lecture slides](https://davidubilava.com/agmarkets_slides/06-Spatial.html)
+
 ## Storage and Price Dynamics
 
+- [Lecture slides](https://davidubilava.com/agmarkets_slides/07-Temporal.html)
+
 ## Futures Markets
+
+- [Lecture slides](https://davidubilava.com/agmarkets_slides/08-Futures.html)
 
 # Risk and Policy
 
