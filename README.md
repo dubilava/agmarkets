@@ -20,7 +20,7 @@ This website compiles teaching material for the subject of agricultural markets.
 
 - [Lecture slides](https://davidubilava.com/agmarkets_slides/05-Vertical.html)
 
-## Spatial Integration and Trade
+## Market Integration and Trade
 
 - [Lecture slides](https://davidubilava.com/agmarkets_slides/06-Spatial.html)
 
