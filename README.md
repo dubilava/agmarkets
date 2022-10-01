@@ -36,6 +36,8 @@ This website compiles teaching material for the subject of agricultural markets.
 
 ## Risk, Insurance, and Pricing Policy
 
+- [Lecture slides](https://davidubilava.com/agmarkets_slides/09-Risk.html)
+
 ## International Negotiations and Trade Policy
 
 # Special Topics
