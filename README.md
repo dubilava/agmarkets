@@ -40,6 +40,7 @@ This website compiles teaching material for the subject of agricultural markets.
 - Readings:
   * Kaiser and Tomek (Chapter 8)
   * Norton, Alwang, and Masters (Chapter 16)
+  * [Testing Market Integration](https://doi.org/10.2307/1241654)
   * [Distinguishing between Equilibrium and Integration in Spatial Price Analysis](https://doi.org/10.1111/1467-8276.00298)
 
 
