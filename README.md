@@ -5,25 +5,25 @@ This website compiles teaching material for the subject of agricultural markets.
 ## Introduction to Agricultural Markets
 - [Lecture slides](https://davidubilava.com/agmarkets_slides/01-Intro.html)
 - Readings:
-  * Kaiser and Tomek (Chapter 1)
+  * Tomek and Kaiser (Chapter 1)
   * [Global Commodity Market Disruption and the Fallout](https://doi.org/10.1111/1467-8489.12497)
 
 ## Preferences and Demand
 - [Lecture slides](https://davidubilava.com/agmarkets_slides/02-Demand.html)
 - Readings:
-  * Kaiser and Tomek (Chapters 2 and 3)
+  * Tomek and Kaiser (Chapters 2 and 3)
   * Norton, Alwang, and Masters (Chapter 3)
   * [Income Variability, Evolving Diets, and Elasticity Estimation of Demand for Processed Foods in Nigeria](https://doi.org/10.1111/ajae.12139)
 
 ## Costs and Supply
 - [Lecture slides](https://davidubilava.com/agmarkets_slides/03-Supply.html)
 - Readings:
-  * Kaiser and Tomek (Chapter 4)
+  * Tomek and Kaiser (Chapter 4)
 
 ## Market Structure and Price Determination
 - [Lecture slides](https://davidubilava.com/agmarkets_slides/04-Prices.html)
 - Readings:
-  * Kaiser and Tomek (Chapters 5 and 11)
+  * Tomek and Kaiser (Chapters 5 and 11)
 
 # Price Relationships
 
@@ -31,14 +31,14 @@ This website compiles teaching material for the subject of agricultural markets.
 
 - [Lecture slides](https://davidubilava.com/agmarkets_slides/05-Vertical.html)
 - Readings:
-  * Kaiser and Tomek (Chapter 6)
+  * Tomek and Kaiser (Chapter 6)
   * Norton, Alwang, and Masters (Chapter 15)
 
 ## Market Integration and Trade
 
 - [Lecture slides](https://davidubilava.com/agmarkets_slides/06-Spatial.html)
 - Readings:
-  * Kaiser and Tomek (Chapter 8)
+  * Tomek and Kaiser (Chapter 8)
   * Norton, Alwang, and Masters (Chapter 16)
   * [Testing Market Integration](https://doi.org/10.2307/1241654)
   * [Distinguishing between Equilibrium and Integration in Spatial Price Analysis](https://doi.org/10.1111/1467-8276.00298)
@@ -48,14 +48,14 @@ This website compiles teaching material for the subject of agricultural markets.
 
 - [Lecture slides](https://davidubilava.com/agmarkets_slides/07-Temporal.html)
 - Readings:
-  * Kaiser and Tomek (Chapter 9)
+  * Tomek and Kaiser (Chapter 9)
   * [The Value of Public Information in Storable Commodity Markets: Application to the Soybean Market](https://doi.org/10.1002/ajae.12013)
 
 ## Futures Markets
 
 - [Lecture slides](https://davidubilava.com/agmarkets_slides/08-Futures.html)
 - Readings:
-  * Kaiser and Tomek (Chapters 11 and 12)
+  * Tomek and Kaiser (Chapters 11 and 12)
   * [Futures Market Failure?](https://doi.org/10.1093/ajae/aau067)
 
 # Risk and Policy
@@ -64,7 +64,7 @@ This website compiles teaching material for the subject of agricultural markets.
 
 - [Lecture slides](https://davidubilava.com/agmarkets_slides/09-Risk.html)
 - Readings:
-  * Kaiser and Tomek (Chapter 1)
+  * Tomek and Kaiser (Chapter 1)
   * Norton, Alwang, and Masters (Chapter 14)
   * [The Development of a Weather-based Crop Disaster Program](https://doi.org/10.1093/ajae/aaz021)
   * [The Pass-Through of a Tax on Sugar-Sweetened Beverages in Boulder, Colorado](https://doi.org/10.1111/ajae.12191)
@@ -73,7 +73,7 @@ This website compiles teaching material for the subject of agricultural markets.
 
 - [Lecture slides](https://davidubilava.com/agmarkets_slides/10-TradePolicy.html)
 - Readings:
-  * Kaiser and Tomek (Chapter 1)
+  * Tomek and Kaiser (Chapter 1)
   * Norton, Alwang, and Masters (Chapter 17)
   * [Why Is It So Difficult? Trade Liberalization Under the Doha Agenda](https://doi.org/10.1093/oxrep/grm026)
   * [Agricultural Trade and the GATT/WTO: Does Membership Make a Difference?](https://doi.org/10.1093/ajae/aar087)
